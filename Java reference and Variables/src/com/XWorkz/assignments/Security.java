@@ -5,7 +5,7 @@ public class Security {
     int securityId=41;
     String securityArea="Pin";
     Minister minister;
-    public void Security(String securityName,String securityArea,int securityId)
+    Security(String securityName,String securityArea,int securityId)
     {
         this.minister=minister;
         this.securityName=securityName;
