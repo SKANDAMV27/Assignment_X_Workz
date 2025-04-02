@@ -1,7 +1,11 @@
 package com.xworkz.thursday;
 
 public class Len {
+<<<<<<< HEAD
     private  String lenType="";
+=======
+    private String lenType;
+>>>>>>> origin/main
     private String lenSize;
     public String getLenType()
     {

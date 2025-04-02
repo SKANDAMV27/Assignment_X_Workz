@@ -3,8 +3,12 @@ package com.xworkz.thursday;
 public class Lamp {
     static final int lampSize=40;
     private Warranty warranty;
+<<<<<<< HEAD
     void Lamp(Warranty warranty){
 
+=======
+    public void Lamp(Warranty warranty){
+>>>>>>> origin/main
         this.warranty=warranty;
     }
     public void displayLamp()

@@ -28,7 +28,10 @@ private Screw screw;
 
         public void display()
         {
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/main
             if(lens!=null)
             {
                 lens.setLenType("Covext");
@@ -38,7 +41,10 @@ private Screw screw;
             }else{
                 System.out.println("Lense Null Value");
             }
+<<<<<<< HEAD
             Lamp lamp = new Lamp();
+=======
+>>>>>>> origin/main
             if(lamp!=null)
             {
                 lamp.displayLamp();
