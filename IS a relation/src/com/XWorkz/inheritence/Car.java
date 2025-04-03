@@ -1,6 +1,8 @@
 package com.XWorkz.inheritence;
 
-public class Car extends Vehicles{
+import com.XWorkz.inheritence.Internal.Vehicles;
+
+public class Car extends Vehicles {
      Car()
     {
         super();

@@ -1,7 +1,7 @@
 package com.XWorkz.inheritence;
 
 public class wineShop extends Bar{
-    wineShop(){
+    public wineShop(){
         super();
         System.out.println("No args wineShop");
     }

@@ -1,7 +1,7 @@
 package com.XWorkz.inheritence;
 
 public class Birds extends Parrot {
-    Birds()
+    public Birds()
     {
         super();
         System.out.println("No args of Birds Constructor");

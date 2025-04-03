@@ -1,27 +1,27 @@
 package com.XWorkz.inheritence;
 
 public class Money {
-    Money(){
+    public Money(){
         System.out.println("No args of Money Constructor");
     }
-    void cash()
+    public void cash()
     {
         System.out.println("Money is in the form of Cash");
     }
-    void UIP()
+    public void UIP()
     {
         System.out.println("UIP Mode");
     }
-    void payment()
+    public void payment()
     {
         System.out.println("Payment Mode");
     }
-    void loanAmont()
-    {
+
+    public void loanAmont() {
         System.out.println("Loan Ammount");
     }
-    void intrest()
-    {
+
+    public void intrest() {
         System.out.println("Intrest Amount");
     }
 }

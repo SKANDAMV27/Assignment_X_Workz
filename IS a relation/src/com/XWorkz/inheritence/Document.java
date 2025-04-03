@@ -1,7 +1,7 @@
 package com.XWorkz.inheritence;
 
 public class Document extends Report {
-    Document()
+    public Document()
     {
         super();
         System.out.println("No-args of Documnets Constructor");

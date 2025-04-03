@@ -3,18 +3,13 @@ package com.XWorkz.inheritence;
 public class MainRunner {
     public static void main(String[] args) {
 
-        Carnival carnival = new Carnival();
-        carnival.diwali();
-        carnival.ganeshaChathurthi();
-        carnival.Holi();
-        carnival.ramzan();
-        carnival.ugadi();
+
 
 
         Car car = new Car();
         car.Stop();
         car.Buy();
-        car.Repair();
+        car.Move();
         car.Sell();
         car.Start();
 

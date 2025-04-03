@@ -1,7 +1,7 @@
 package com.XWorkz.inheritence;
 
 public class Soil extends Sand{
-    Soil()
+    public Soil()
     {
         super();
         System.out.println("No args Soil Constructor");

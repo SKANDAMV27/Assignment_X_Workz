@@ -4,15 +4,15 @@ public class Hostel {
     Hostel(){
         System.out.println("No args Hostel Constructor");
     }
-    void Fees()
+    public void Fees()
     {
         System.out.println("Hostel Fees");
     }
-    void Food()
+    public void Food()
     {
         System.out.println("Hostel Food");
     }
-    void sharing()
+    public void sharing()
     {
         System.out.println("Sharing Members in Hostel");
     }

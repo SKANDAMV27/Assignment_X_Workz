@@ -4,13 +4,14 @@ public class Bar {
     Bar(){
         System.out.println("No args Bar Constructor");
     }
-    void brand(){
+    public void brand(){
         System.out.println("Type of Brand in Bar");
     }
     public  void owner(){
         System.out.println("Bar Owner Name");
     }
     public void barLocation(){
+
         System.out.println("Bar Location");
     }
     public void beer()

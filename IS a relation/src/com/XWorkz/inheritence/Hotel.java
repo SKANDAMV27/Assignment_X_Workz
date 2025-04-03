@@ -4,7 +4,7 @@ public class Hotel {
     Hotel(){
         System.out.println("No args Hotel Constructor.");
     }
-    void plate()
+    public void plate()
     {
         System.out.println("Number of Plate in Hotel");
     }

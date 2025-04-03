@@ -1,25 +1,25 @@
 package com.XWorkz.inheritence;
 
 public class Sand {
-    Sand(){
+    public Sand(){
         System.out.println("No-args of sand constructor ");
     }
-    void type(){
+    public void type(){
         System.out.println("Type of Soil");
     }
-    void color()
+    public void color()
     {
         System.out.println("Color of the soil");
     }
-    void area()
+    public void area()
     {
         System.out.println("Area to Found the Sand.");
     }
-    void quality()
+    public void quality()
     {
         System.out.println("Quality of the soil");
     }
-    void quantity()
+    public void quantity()
     {
         System.out.println("Quantity of the sand");
     }
