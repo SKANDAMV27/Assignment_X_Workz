@@ -9,135 +9,147 @@ import com.XWorkz.inheritence.Internal.Vehicles;
 public class MainRunner {
     public static void main(String[] args) {
 
-        Carnival carnival = new Carnival();
-        carnival.diwali();
-        carnival.ganeshaChathurthi();
-        carnival.Holi();
-        carnival.ramzan();
-        carnival.ugadi();
-
-        Car car = new Car();
-        car.Buy();
-        car.Move();
-        car.Stop();
-        car.Sell();
-        car.Start();
-        Bikes bikes = new Bikes();
-        bikes.Buy();
-        bikes.Sell();
-        bikes.Move();
-        bikes.Stop();
-        bikes.Start();
-        JCB jcb = new JCB();
-        jcb.Buy();
-        jcb.Move();
-        jcb.Sell();
-        jcb.Stop();
-        jcb.Start();
-        Bus bus = new Bus();
-        bus.Buy();
-        bus.Sell();
-        bus.Move();
-        bus.Stop();
-        bus.Start();
-        Train train = new Train();
-        train.Buy();
-        train.Move();
-        train.Sell();
-        train.Stop();
-        train.Start();
-        PickUp pickUp = new PickUp();
-        pickUp.Buy();
-        pickUp.Move();
-        pickUp.Sell();
-        pickUp.Stop();
-        pickUp.Start();
-        Troctor troctor = new Troctor();
-        troctor.Sell();
-        troctor.Buy();
-        troctor.Move();
-        troctor.Stop();
-        troctor.Start();
-        Auto auto = new Auto();
-        auto.Buy();
-        auto.Move();
-        auto.Sell();
-        auto.Stop();
-        auto.Start();
-        Tillar tillar = new Tillar();
-        tillar.Buy();
-        tillar.Move();
-        tillar.Sell();
-        tillar.Stop();
-        tillar.Start();
-        Cycle cycle = new Cycle();
-        cycle.Buy();
-        cycle.Move();
-        cycle.Sell();
-        cycle.Stop();
-        cycle.Start();
-
-        Fruit fruit = new Fruit();
-        fruit.colour();;
-        fruit.kg();
-        fruit.price();
-        fruit.Size();
-        fruit.type();
-
-        Thirthahalli thirthahalli = new Thirthahalli();
-        thirthahalli.nature();
-        thirthahalli.area();
-        thirthahalli.distance();
-        thirthahalli.location();
-        thirthahalli.nearPlace();
-        Koppa koppa = new Koppa();
-        koppa.nature();
-        koppa.area();
-        koppa.distance();
-        koppa.location();
-        koppa.nearPlace();
-        Shivamogga shivamogga = new Shivamogga();
-        shivamogga.nature();
-        shivamogga.area();
-        shivamogga.distance();
-        shivamogga.location();
-        shivamogga.nearPlace();
-
-        Document document = new Document();
-        document.introduction();
-        document.conclusion();
-        document.flowChart();
-        document.result();
-        document.systemDesign();
-
+        Festival festival = new Carnival();
+        festival.ramzan();
+        festival.diwali();
+        festival.ugadi();
+        festival.Holi();
+        festival.ganeshaChathurthi();
+        System.out.println("-------------------------------");
+        Vehicles vehicles = new Car();
+        vehicles.Buy();
+        vehicles.Start();
+        vehicles.Move();
+        vehicles.Sell();
+        vehicles.Stop();
+        System.out.println("-------------------------------");
+        Vehicles vehicles1 = new Bikes();
+        vehicles1.Stop();
+        vehicles1.Sell();
+        vehicles1.Start();
+        vehicles1.Buy();
+        vehicles1.Move();
+        System.out.println("-------------------------------");
+        Vehicles vehicles2 = new JCB();
+        vehicles2.Move();
+        vehicles2.Buy();
+        vehicles2.Stop();
+        vehicles2.Start();
+        vehicles2.Sell();
+        System.out.println("-------------------------------");
+        Vehicles vehicles3 = new Bus();
+        vehicles3.Sell();
+        vehicles3.Stop();
+        vehicles3.Move();
+        vehicles3.Start();
+        vehicles3.Buy();
+        System.out.println("-------------------------------");
+        Vehicles vehicles4 = new Train();
+        vehicles4.Buy();
+        vehicles4.Move();
+        vehicles4.Sell();
+        vehicles4.Stop();
+        vehicles4.Start();
+        System.out.println("-------------------------------");
+        Vehicles vehicles5 = new PickUp();
+        vehicles5.Start();
+        vehicles5.Stop();
+        vehicles5.Sell();
+        vehicles5.Move();
+        vehicles5.Buy();
+        System.out.println("-------------------------------");
+        Vehicles vehicles6 = new Troctor();
+        vehicles6.Buy();
+        vehicles6.Move();
+        vehicles6.Sell();
+        vehicles6.Buy();
+        vehicles6.Start();
+        System.out.println("-------------------------------");
+        Vehicles vehicles7 = new Troctor();
+        vehicles7.Buy();
+        vehicles7.Start();
+        vehicles7.Sell();
+        vehicles7.Move();
+        vehicles7.Stop();
+        System.out.println("-------------------------------");
+        System.out.println("");
+        Vehicles vehicles8 = new Tillar();
+        vehicles8.Stop();
+        vehicles8.Move();
+        vehicles8.Buy();
+        vehicles8.Sell();
+        vehicles8.Start();
+        System.out.println("<><><><><><><><><><><><>><><><>><><><><><>");
+        Vehicles vehicles9 = new Cycle();
+        vehicles9.Start();
+        vehicles9.Buy();
+        vehicles9.Sell();
+        vehicles9.Move();
+        vehicles9.Stop();
+        System.out.println("[][][][][][][][][][][][][][][][][][][][][][][][][][]");
+        Apple apple = new Fruit();
+        apple.type();
+        apple.Size();
+        apple.kg();
+        apple.price();
+        apple.colour();
+        System.out.println("()()()()()()()()()()()()()()()()()()()()()()");
+        Place place1 = new Thirthahalli();
+        place1.area();
+        place1.nearPlace();
+        place1.distance();
+        place1.location();
+        place1.nature();
+        System.out.println("{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}{}");
+        Place place2 = new Koppa();
+        place2.nature();
+        place2.nearPlace();
+        place2.distance();
+        place2.location();
+        place2.area();
+        System.out.println("======================================================");
+        Place place3 = new Shivamogga();
+        place3.location();
+        place3.nature();
+        place3.nearPlace();
+        place3.area();
+        place3.distance();
+        System.out.println("______________________________________________________");
+        Report report = new Document();
+        report.conclusion();
+        report.introduction();
+        report.flowChart();
+        report.systemDesign();
+        report.conclusion();
+        System.out.println("^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
         Home home = new Building();
         home.bathRoom();
         home.bedRoom();
         home.hall();
         home.dinningHall();
         home.kitchen();
-
+        System.out.println("*************************************************************");
         Sand sand = new Soil();
         sand.area();
         sand.color();
         sand.quality();
         sand.type();
         sand.quantity();
-
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         Money money = new Amount();
         money.loanAmont();
         money.cash();
         money.intrest();
         money.UIP();
         money.payment();
-
+        System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
         Hotel hotel = new Canteen();
         hotel.business();
         hotel.dosa();
         hotel.plate();
         hotel.business();
         hotel.supplear();
-
+        System.out.println("####################################################################");
         Hostel hostel = new PG();
         hostel.Fees();
         hostel.Food();
@@ -1167,50 +1179,6 @@ public class MainRunner {
         adhya.USN();
         adhya.name();
         adhya.year();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

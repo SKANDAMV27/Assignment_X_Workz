@@ -6,21 +6,21 @@ public class Festival {
     }
     public void diwali()
     {
-        System.out.println("no args Diwali");
+        System.out.println("Diwali");
     }
     public void ugadi()
     {
-        System.out.println("no args ugadi");
+        System.out.println("ugadi");
     }
     public void Holi()
     {
         System.out.println("no args Holi");
     }
     public void ganeshaChathurthi(){
-        System.out.println("no args Ganesha Chathurthi");
+        System.out.println(" Ganesha Chathurthi");
     }
     public void ramzan()
     {
-        System.out.println("no args Ramzan");
+        System.out.println("Ramzan");
     }
 }
