@@ -5,22 +5,27 @@ public class Abhi extends Movie{
     {
         System.out.println("No args Abhi Movie Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name ABHI");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shooting Location Joga");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name Sudeep");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Hero in Name Ramya");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie rating 4");

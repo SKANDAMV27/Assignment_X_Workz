@@ -7,22 +7,28 @@ public class wineShop extends Bar{
     }
     @Override
     public void brand(){
+
         System.out.println("Type of Brand in Wine Shop");
     }
+    @Override
     public  void owner(){
-        System.out.println("Bar Owner Name");
+        System.out.println("Wine Shop Owner Name");
+
     }
+    @Override
     public void barLocation(){
 
-        System.out.println("Bar Location");
+        System.out.println("Wine Shop Location");
     }
+    @Override
     public void beer()
     {
-        System.out.println("Beer in Bar");
+        System.out.println("Beer in Wine Shop");
     }
+    @Override
     public void area()
     {
-        System.out.println("Bar Area");
+        System.out.println("Wine shop Area");
     }
 
 }

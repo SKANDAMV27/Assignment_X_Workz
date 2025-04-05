@@ -6,25 +6,29 @@ public class Arasu extends Movie{
         super();
         System.out.println("No args Arasu Movie Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name Arasu");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name Puneeth");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin Name Rakshitha");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shooting Location Mysoure");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie Rating *****");
     }
-
 }

@@ -6,23 +6,28 @@ public class Max extends Movie{
         super();
         System.out.println("No args Max Movie Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name Sudeep");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin name...");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie Ratting 5");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Location Thirthahalli");
     }

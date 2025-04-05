@@ -6,22 +6,27 @@ public class Dragan extends Movie{
         super();
         System.out.println("no args as a Dragran Movie Constructor");
     }
-    public void name()
+    @Override
+    public void heroName()
     {
         System.out.println("Movie Name Dragan");
     }
-    public void hero()
+    @Override
+    public void movieName()
     {
         System.out.println("Hero name Sagar");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin name....");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shotting Location");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie Ratting");

@@ -6,23 +6,28 @@ public class Mad extends Movie{
         super();
         System.out.println("No args as Mad Movie Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name Mad");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("heroin Name");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Location Shivamogga");
     }
-    public void ratting()
+    @Override
+    public void rating()
     {
         System.out.println("Movie Ratting");
     }

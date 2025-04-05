@@ -6,23 +6,28 @@ public class ABCD extends Movie{
         super();
         System.out.println("No args ABCD Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name ABCD");
     }
-    public void loction()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shooting Location");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero name Puneeth");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin name Radika Pandith");
     }
-    public void ratting()
+    @Override
+    public void rating()
     {
         System.out.println("Movie Ratting");
     }

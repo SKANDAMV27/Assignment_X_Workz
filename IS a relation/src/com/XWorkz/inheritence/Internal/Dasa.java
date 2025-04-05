@@ -5,22 +5,27 @@ public class Dasa extends Movie{
     {
         System.out.println("No args Dasa Movie Constructor");
     }
-    public void name()
+    @Override
+    public void movieName()
     {
         System.out.println("Movie Name Dasa");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shotting Location");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name Dharshan");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin Name Rachitha Ram");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie Rating *****");

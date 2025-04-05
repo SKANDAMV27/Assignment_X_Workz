@@ -6,22 +6,27 @@ public class Gaja extends Movie{
         super();
         System.out.println("No args Gaja movie Constructor");
     }
+    @Override
     public void movieName()
     {
         System.out.println("Movie Name Gaja");
     }
-    public void shottingLocation()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shotting Location Koppa");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Hero Name Dharshan");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Heroin Name Kavya");
     }
+    @Override
     public void rating()
     {
         System.out.println("Movie Ratting *****");
