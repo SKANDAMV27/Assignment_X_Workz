@@ -5,24 +5,30 @@ public class Kantara extends Movie{
     {
         System.out.println("No args Kantara Movie Constructor");
     }
+    @Override
     public void movieName()
     {
         System.out.println("Movie Name Kantara");
     }
-    public void hero()
+    @Override
+    public void heroName()
     {
         System.out.println("Movie Hero Name Rishab Shetty");
     }
-    public void heroin()
+    @Override
+    public void heroinName()
     {
         System.out.println("Movie Heroin Name Sapthami Gowda");
     }
-    public void location()
+    @Override
+    public void movieLocation()
     {
         System.out.println("Movie Shotting Location kundapur");
     }
-    public void ratting()
+    @Override
+    public void rating()
     {
         System.out.println("Moving Ratting *****");
     }
+
 }

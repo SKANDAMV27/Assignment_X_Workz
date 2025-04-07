@@ -31,4 +31,8 @@ public class Dragan extends Movie{
     {
         System.out.println("Movie Ratting");
     }
+    public void Collection()
+    {
+        System.out.println("Dragan Movie Collection");
+    }
 }

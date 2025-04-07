@@ -31,4 +31,8 @@ public class Mad extends Movie{
     {
         System.out.println("Movie Ratting");
     }
+    public void Collection()
+    {
+        System.out.println("Mad Movie Collection");
+    }
 }

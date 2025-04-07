@@ -25,4 +25,8 @@ public class Drama extends Movie{
     {
         System.out.println("Movie Rating 4.5");
     }
+    public void Collection()
+    {
+        System.out.println("Dram Movie Collection");
+    }
 }

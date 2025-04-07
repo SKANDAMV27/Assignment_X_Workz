@@ -31,4 +31,9 @@ public class Appu extends Movie{
     {
         System.out.println("Movie Rating *****");
     }
+    public void Collection()
+    {
+        System.out.println("Appu Movie Collection");
+    }
+
 }

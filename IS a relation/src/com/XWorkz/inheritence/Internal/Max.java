@@ -31,4 +31,8 @@ public class Max extends Movie{
     {
         System.out.println("Movie Location Thirthahalli");
     }
+    public void Collection()
+    {
+        System.out.println("Max Movie Collectin");
+    }
 }

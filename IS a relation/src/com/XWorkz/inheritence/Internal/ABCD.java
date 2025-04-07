@@ -31,4 +31,8 @@ public class ABCD extends Movie{
     {
         System.out.println("Movie Ratting");
     }
+    public void collection()
+    {
+        System.out.println("Movie Collection");
+    }
 }
