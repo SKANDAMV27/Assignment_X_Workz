@@ -11,5 +11,6 @@ public class EEEDetails {
             ElectricalBranch electricalBranch = (ElectricalBranch) eee;
             electricalBranch.admission();
         }
+
     }
 }
