@@ -12,7 +12,12 @@ public class DiaryMilk extends Chochalate {
         this.name=name;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 2781;
+    }
     @Override
     public String toString() {
         return "Manch{" +

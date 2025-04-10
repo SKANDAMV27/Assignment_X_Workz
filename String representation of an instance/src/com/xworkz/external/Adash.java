@@ -12,6 +12,12 @@ public class Adash extends Student {
         this.grade=grade;
         this.name=name;
     }
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 5;
+    }
 
     @Override
     public String toString() {

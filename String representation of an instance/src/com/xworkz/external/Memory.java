@@ -12,6 +12,12 @@ public class Memory extends RAM {
         this.storage=storage;
         this.type=type;
     }
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 9009;
+    }
 
     @Override
     public String toString() {

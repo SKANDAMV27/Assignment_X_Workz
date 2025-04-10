@@ -12,7 +12,12 @@ public class Tourlment extends Cricket {
         this.members=members;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 19872;
+    }
     @Override
     public String toString() {
         return "Game{" +

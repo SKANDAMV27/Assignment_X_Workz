@@ -11,7 +11,12 @@ public class Wheel extends Tyer {
         this.name=name;
         this.pressure=pressure;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 45231;
+    }
     @Override
     public String toString() {
         return "Wheel{" +

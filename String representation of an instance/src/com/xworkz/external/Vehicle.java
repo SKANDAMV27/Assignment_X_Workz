@@ -13,7 +13,12 @@ public class Vehicle extends Car {
         this.company=company;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 521;
+    }
     @Override
     public String toString() {
         return "Vehicle{" +

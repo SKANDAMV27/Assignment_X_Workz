@@ -12,7 +12,12 @@ public class Hevan extends Thirthahalli {
         this.place=place;
         this.grade=grade;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 896;
+    }
     @Override
     public String toString() {
         return "Hevan{" +

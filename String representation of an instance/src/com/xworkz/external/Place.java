@@ -12,7 +12,12 @@ public class Place extends Shivamogga {
         this.grade=grade;
         this.placeName=placeName;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 896;
+    }
     @Override
     public String toString() {
         return "Place{" +

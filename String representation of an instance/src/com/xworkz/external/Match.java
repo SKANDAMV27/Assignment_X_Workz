@@ -12,7 +12,12 @@ public class Match extends Hockey {
         this.members=members;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 75320;
+    }
     @Override
     public String toString() {
         return "Game{" +

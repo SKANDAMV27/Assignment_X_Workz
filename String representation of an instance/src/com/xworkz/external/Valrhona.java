@@ -12,7 +12,12 @@ public class Valrhona extends Chochalate {
         this.name=name;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 4521;
+    }
     @Override
     public String toString() {
         return "Ferrero{" +

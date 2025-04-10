@@ -12,7 +12,12 @@ public class Azeem extends Student {
         this.grade=grade;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 99999;
+    }
     @Override
     public String toString() {
         return "Arun{" +

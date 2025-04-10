@@ -11,7 +11,12 @@ public class Color extends Red {
         this.lighter=lighter;
         this.things=things;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 789;
+    }
     @Override
     public String toString() {
         return "Color{" +

@@ -14,6 +14,14 @@ public class Device extends Laptop {
     }
 
     @Override
+    public int hashCode()
+    {
+        System.out.println("Device: "+super.hashCode());
+        return 262;
+
+    }
+
+    @Override
     public String toString() {
         return "Device{" +
                 "price=" + price +

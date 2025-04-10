@@ -12,7 +12,12 @@ public class Cadbury extends Chochalate {
         this.name=name;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 8026;
+    }
     @Override
     public String toString() {
         return "Ferrero{" +

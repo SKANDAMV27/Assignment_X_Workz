@@ -12,7 +12,12 @@ public class CocoaPowder extends Chochalate {
         this.name=name;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 963;
+    }
     @Override
     public String toString() {
         return "Ferrero{" +

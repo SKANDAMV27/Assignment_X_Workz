@@ -12,7 +12,12 @@ public class Esa extends Student {
         this.grade=grade;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 1253;
+    }
     @Override
     public String toString() {
         return "Arun{" +

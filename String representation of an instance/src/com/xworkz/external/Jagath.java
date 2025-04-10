@@ -12,7 +12,12 @@ public class Jagath extends Student {
         this.grade=grade;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 8696;
+    }
     @Override
     public String toString() {
         return "Jagath{" +

@@ -14,6 +14,12 @@ public class Adhya extends Student {
     }
 
     @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 185;
+    }
+    @Override
     public String toString() {
         return "Arun{" +
                 "name='" + name + '\'' +

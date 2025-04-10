@@ -12,7 +12,12 @@ public class Animal extends Dog {
         this.name=name;
         this.weight=weight;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 80;
+    }
     @Override
     public String toString() {
         return "Animal{" +

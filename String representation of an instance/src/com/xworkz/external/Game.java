@@ -12,7 +12,12 @@ public class Game extends Kabadi {
        this.members=members;
        this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 5623;
+    }
     @Override
     public String toString() {
         return "Game{" +

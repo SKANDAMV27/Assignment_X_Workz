@@ -12,10 +12,15 @@ public class Adhithya extends Student {
         this.grade=grade;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 100;
+    }
     @Override
     public String toString() {
-        return "Arun{" +
+        return "Adhithya{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", grade=" + grade +

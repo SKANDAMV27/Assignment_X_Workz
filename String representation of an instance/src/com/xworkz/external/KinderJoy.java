@@ -12,7 +12,12 @@ public class KinderJoy extends Chochalate {
         this.name=name;
         this.price=price;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 85220;
+    }
     @Override
     public String toString() {
         return "Manch{" +

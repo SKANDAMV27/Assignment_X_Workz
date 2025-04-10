@@ -13,7 +13,12 @@ public class mobileGame extends Pubg
         this.members=members;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 400;
+    }
     @Override
     public String toString() {
         return "Game{" +

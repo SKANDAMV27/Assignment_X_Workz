@@ -12,7 +12,12 @@ public class PcGame extends YCT {
         this.members=members;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 754;
+    }
     @Override
     public String toString() {
         return "Game{" +

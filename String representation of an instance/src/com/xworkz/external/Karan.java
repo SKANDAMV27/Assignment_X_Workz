@@ -12,7 +12,12 @@ public class Karan extends Student {
         this.grade=grade;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 2054;
+    }
     @Override
     public String toString() {
         return "Karan{" +

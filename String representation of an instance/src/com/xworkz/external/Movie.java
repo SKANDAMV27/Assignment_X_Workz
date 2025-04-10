@@ -14,6 +14,17 @@ public class Movie extends Arasu{
         this.rating=rating;
 
     }
+    @Override
+    public int hashCode()
+    {
+        System.out.println("Hashcode Movie: "+super.hashCode());
+        return 18;
+    }
+
+
+
+
+    @Override
     public String toString()
     {
         return ("MovieName:"+this.name+" Location:"+this.location+" Rating:"+this.rating);

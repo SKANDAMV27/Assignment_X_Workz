@@ -12,7 +12,12 @@ public class Material extends Iron {
         this.name=name;
         this.grade=grade;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 154236;
+    }
     @Override
     public String toString() {
         return "Material{" +

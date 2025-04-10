@@ -12,7 +12,12 @@ public class IndoorGame extends Chess {
         this.members=members;
         this.name=name;
     }
-
+    @Override
+    public int hashCode()
+    {
+        System.out.println(super.hashCode());
+        return 54000;
+    }
     @Override
     public String toString() {
         return "Game{" +
