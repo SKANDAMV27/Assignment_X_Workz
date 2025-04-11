@@ -11,9 +11,10 @@ public class MainRunner {
         movie.toString();
         System.out.println(movie);
         System.out.println("Hash Code");
-        Movie movie1 = new Movie("HashCode",4,"Shivamogga");
-        movie1.hashCode();
-        System.out.println(movie1);
+        movie.hashCode();
+        System.out.println(movie);
+        movie.
+
 
         System.out.println("");
 

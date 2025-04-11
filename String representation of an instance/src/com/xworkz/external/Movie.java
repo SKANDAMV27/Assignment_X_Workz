@@ -21,9 +21,26 @@ public class Movie extends Arasu{
         return 18;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null)
+        {
+            System.out.println("It is not a Null");
+            if(obj instanceof Movie)
+            {
+                System.out.println("Compare: ");
 
+            }
 
+        }
+        return false;
+    }
+    public String getName()
+    {
+        return name;
+    }
 
+    
     @Override
     public String toString()
     {
