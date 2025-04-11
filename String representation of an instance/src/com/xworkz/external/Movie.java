@@ -29,7 +29,13 @@ public class Movie extends Arasu{
             if(obj instanceof Movie)
             {
                 System.out.println("Compare: ");
-
+                Movie movie = this;
+                Movie movie1 = (Movie) obj;
+                if(movie.name==movie1.name && movie.rating==movie1.rating && movie.location==movie1.location)
+                {
+                    System.out.println("Both are same");
+                    return true;
+                }
             }
 
         }
@@ -39,6 +45,28 @@ public class Movie extends Arasu{
     {
         return name;
     }
+    public void setName(String name)
+    {
+        this.name=name;
+    }
+    public String getLocation()
+    {
+        return location;
+    }
+    public void setLocation(String location)
+    {
+        this.location=location;
+    }
+    public int getRating()
+    {
+        return rating;
+    }
+    public void setRating(int rating)
+    {
+        this.rating=rating;
+    }
+
+
 
     
     @Override

@@ -13,7 +13,18 @@ public class MainRunner {
         System.out.println("Hash Code");
         movie.hashCode();
         System.out.println(movie);
-        movie.
+        movie.setName("Asaru");
+        movie.setLocation("Thirthahalli");
+        movie.setRating(4);
+        Movie movie1 = new Movie("Arasu" ,5,"Thirthahalli");
+        movie1.setName("Asaru");
+        movie1.setLocation("Thirahalli");
+        movie1.setRating(4);
+
+        System.out.println("Compare :"+(movie==movie1));
+        boolean hash = movie.equals(movie1);
+        System.out.println("Result: "+hash);
+
 
 
         System.out.println("");
@@ -21,10 +32,22 @@ public class MainRunner {
         Device device = new Device(45000,"HP","Black");
         System.out.println("Laptop Details: "+device);
         System.out.println("Hash Code");
-        Device device1 = new Device(5,"","");
-        device1.hashCode();
-        System.out.println(device1);
+        Device device2 = new Device(5,"","");
+        device2.hashCode();
+        System.out.println(device2);
+        device.setCompany("HP");
+        device.setColor("Blue");
+        device.setPrice(45000);
 
+        Device device1 = new Device(5,"","");
+        device1.setColor("HP");
+        device1.setCompany("Blue");
+        device1.setPrice(45000);
+
+
+        System.out.println("Compare: "+(device==device1));
+        boolean equal = device.equals(device2);
+        System.out.println(equal);
 
         System.out.println("");
 
@@ -32,12 +55,31 @@ public class MainRunner {
         System.out.println("Car Details: "+vehicle);
         System.out.println("hash Code");
         System.out.println(vehicle.hashCode());
+        vehicle.setColor("Red");
+        vehicle.setPrice(1265000);
+        vehicle.setCompany("KIA");
+        vehicle.setGrade('A');
+        Vehicle vehicle1 = new Vehicle("Red","KIA",1265000,'A');
+        vehicle1.setGrade('A');
+        vehicle1.setPrice(1265000);
+        vehicle1.setColor("Red");
+        vehicle1.setCompany("KIA");
+
+        System.out.println("Compare :"+(vehicle==vehicle1));
+        boolean equal1 = vehicle.equals(vehicle1);
+        System.out.println(equal1);
+
 
 
         System.out.println("");
         Hevan hevan = new Hevan(450,"Thirthahalli",'A');
         System.out.println("Thirthahalli Details: "+hevan);
         System.out.println(hevan.hashCode());
+        Hevan hevan1 = new Hevan(450,"Thirthahalli",'A');
+        System.out.println("Compare: "+(hevan1==hevan));
+        boolean equal3 = hevan.equal(hevan1);
+        System.out.println(equal3);
+
 
         System.out.println("");
         Color color = new Color("Dark Orange",45,"Wall");
