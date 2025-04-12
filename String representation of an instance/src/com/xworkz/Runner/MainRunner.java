@@ -74,8 +74,15 @@ public class MainRunner {
         System.out.println("");
         Hevan hevan = new Hevan(450,"Thirthahalli",'A');
         System.out.println("Thirthahalli Details: "+hevan);
+        hevan.setDistance(45);
+        hevan.setGrade('A');
+        hevan.setPlace("Thirthahalli");
         System.out.println(hevan.hashCode());
         Hevan hevan1 = new Hevan(450,"Thirthahalli",'A');
+        hevan1.setPlace("Thirthahalli");
+        hevan1.setDistance(45);
+        hevan1.setGrade('A');
+
         System.out.println("Compare: "+(hevan1==hevan));
         boolean equal3 = hevan.equal(hevan1);
         System.out.println(equal3);
@@ -85,45 +92,82 @@ public class MainRunner {
         Color color = new Color("Dark Orange",45,"Wall");
         System.out.println("Orange Color Details: "+color);
         System.out.println(color.hashCode());
+        Color colo1 = new Color("Dark Orange",45,"Wall");
+        System.out.println("Compare the Things: "+colo1.equals(color));
+        boolean equals4 = color.equals(colo1);
+        System.out.println(equals4);
 
         System.out.println("");
         Place place = new Place("Shivamogga",60,'A');
         System.out.println("Place Details: "+place);
         System.out.println(place.hashCode());
+        Place place1 = new Place("Shivamogga",60,'A');
+        System.out.println("Compare Things: "+(place1==place));
+        boolean equals5 = place1.equals(place);
+        System.out.println(equals5);
 
         System.out.println("");
         Memory memory = new Memory(1024,"gd",'B');
         System.out.println("Menory Details: "+memory);
         System.out.println(memory.hashCode());
+        Memory memory1 = new Memory(1024,"gd",'B');
+        System.out.println("Compare Things :"+(memory1==memory));
+        boolean equals6 = memory1.equals(memory);
+        System.out.println(equals6);
 
         System.out.println("");
         Material material = new Material("Iron",100250,'c');
         System.out.println("Material Details: "+material);
         System.out.println(material.hashCode());
+        Material material1 = new Material("Iron",100250,'c');
+        System.out.println("Compare Things: "+(material1== material));
+        boolean equals7 = material1.equals(material);
+        System.out.println(equals7);
 
         System.out.println("");
         Wheel wheel = new Wheel("Tyer","Rubber",36);
         System.out.println("Wheel Details: "+wheel);
         System.out.println(wheel.hashCode());
+        Wheel wheel1 = new Wheel("Tyer","Rubber",36);
+        System.out.println("Compare: "+(wheel1==wheel));
+        boolean equal8 = wheel1.equals(wheel);
+        System.out.println(equal8);
 
         System.out.println("");
         Animal animal = new Animal("Dog",15,"Yes");
         System.out.println("Animail Details:" +animal);
         System.out.println(animal.hashCode());
+        Animal animal1 = new Animal("Dog",15,"Yes");
+        System.out.println("Compare :"+(animal==animal1));
+        boolean equal9 = animal.equals(animal1);
+        System.out.println(equal9);
 
         System.out.println("");
         Game game = new Game("Kabadi",11,"Monday");
         System.out.println("Game Details:"+game);
         System.out.println(game.hashCode());
+        Game game1 = new Game("Kabadi",11,"Monday");
+        System.out.println("Compare: "+(game=game1));
+        boolean equal10 =game.equals(game1);
+        System.out.println(equal10);
 
         System.out.println("");
         IndoorGame indoorGame = new IndoorGame("Chess",14,"Tuesday");
         System.out.println("Indoor Game Details: "+indoorGame);
+        IndoorGame indoorGame1 = new IndoorGame("Chess",14,"Tuesday");
+        System.out.println("Compare :"+(indoorGame==indoorGame1));
+        boolean equal11 = indoorGame1.equals(indoorGame);
+        System.out.println(equal11);
+
 
         System.out.println("");
         mobileGame mobileGame = new mobileGame("Pubg",30,"Wednesday");
         System.out.println("Mobile Game: "+mobileGame);
         System.out.println(mobileGame.hashCode());
+        mobileGame mobileGame1 = new mobileGame("Pubg",30,"Wednesday");
+        System.out.println("Compare : "+(mobileGame1=mobileGame));
+        boolean equal12 = mobileGame1.equals(mobileGame);
+        System.out.println("Result :"+equal12);
 
         System.out.println("");
         PcGame pcGame = new PcGame("Hot Wheels",45,"Thursday");
