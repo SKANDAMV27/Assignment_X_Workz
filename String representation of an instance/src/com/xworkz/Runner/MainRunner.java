@@ -173,11 +173,19 @@ public class MainRunner {
         PcGame pcGame = new PcGame("Hot Wheels",45,"Thursday");
         System.out.println("PC Game Details: "+pcGame);
         System.out.println(pcGame.hashCode());
+        PcGame pcGame1 = new PcGame("Hot Wheels",45,"Thursday");
+        System.out.println("Compare :"+(pcGame1==pcGame));
+        boolean equals14 = pcGame1.equals(pcGame);
+        System.out.println(equals14);
 
         System.out.println("");
         Tourlment tourlment = new Tourlment("Cricket",15,"Friday");
         System.out.println("Cricket Details: "+tourlment);
         System.out.println(tourlment.hashCode());
+        Tourlment tourlment1 = new Tourlment("Cricket",15,"Friday");
+        System.out.println("Compare :"+(tourlment1==tourlment));
+        boolean equals15 = tourlment1.equals(tourlment);
+        System.out.println(equals15);
 
         System.out.println("");
         Match match = new Match("Hockey",10,"Saturday");

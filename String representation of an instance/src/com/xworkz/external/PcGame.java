@@ -26,10 +26,10 @@ public class PcGame extends YCT {
             if(obj instanceof PcGame)
             {
                 System.out.println("compare: ");
-                PcGame p = this;
-                PcGame place1 = (Place) obj;
-                if(place1.placeName==place.placeName && place.grade == place1.grade && place.distance == place1.distance){
-                    System.out.println("Compare With Things: "+(place1==place));
+                PcGame pcGame = this;
+                PcGame pcGame1 = (PcGame) obj;
+                if(pcGame.name==pcGame1.name && pcGame.members == pcGame1.members && pcGame.Day == pcGame1.Day){
+                    System.out.println("Compare With Things: "+(pcGame1==pcGame));
                     return true;
                 }
             }
@@ -37,6 +37,31 @@ public class PcGame extends YCT {
         }
         return false;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getMembers() {
+        return members;
+    }
+
+    public void setMembers(int members) {
+        this.members = members;
+    }
+
+    public String getDay() {
+        return Day;
+    }
+
+    public void setDay(String day) {
+        Day = day;
+    }
+
     @Override
     public String toString() {
         return "Game{" +
