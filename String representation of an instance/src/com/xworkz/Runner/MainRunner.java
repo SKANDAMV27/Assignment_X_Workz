@@ -442,7 +442,6 @@ public class MainRunner {
         boolean student2 = amith1.equals(amith);
         System.out.println("Result: "+student2);
 
-
         System.out.println("");
         Abhi abhi = new Abhi("Abhi",27,'A');
         System.out.println("Student Details: "+abhi);
@@ -452,63 +451,95 @@ public class MainRunner {
         boolean student3 = abhi1.equals(abhi);
         System.out.println("Result: "+student3);
 
-
-
         System.out.println("");
         Aakhil aakhil = new Aakhil("Aahkil",25,'B');
         System.out.println("Student Details: "+aakhil);
         System.out.println(aakhil.hashCode());
-        
+        Aakhil aakhil1 = new Aakhil("Aahkil",25,'B');
+        System.out.println("Compare: "+(aakhil1==aakhil));
+        boolean student4 = aakhil1.equals(aakhil);
+        System.out.println("Result: "+student4);
 
         System.out.println("");
         Adash adash = new Adash("Adash",30,'A');
         System.out.println("Student Details: "+adash);
         System.out.println(adash.hashCode());
+        Adash adash1 = new Adash("Adash",30,'A');
+        System.out.println("Compare: "+(adash1==adash));
+        boolean student5 = adash1.equals(adash);
+        System.out.println("Result: "+student5);
 
         System.out.println("");
         Adhithya adhithya = new Adhithya("Adhithya",23,'B');
         System.out.println(adhithya);
         System.out.println(adhithya.hashCode());
+        Adhithya adhithya1 = new Adhithya("Adhithya",23,'B');
+        System.out.println("Compare :"+(adhithya==adhithya1));
+        boolean student6 = adhithya1.equals(adhithya);
+        System.out.println("Result: "+student6);
 
         System.out.println("");
         Avinik avinik = new Avinik("Avinik",21,'c');
         System.out.println("Student Details: "+avinik);
         System.out.println(avinik.hashCode());
+        Avinik avinik1 = new Avinik("Avinik",21,'c');
+        System.out.println("Compare: "+(avinik1==avinik));
+        boolean student7 = avinik1.equals(avinik);
+        System.out.println("Result: "+student7);
 
         System.out.println("");
         Abhijith abhijith = new Abhijith("Abhijith",25,'D');
         System.out.println("Student Details: "+abhijith);
         System.out.println(abhijith.hashCode());
+        Abhijith abhijith1 = new Abhijith("Abhijith",25,'D');
+        System.out.println("Compare: "+(abhijith1==abhijith));
+        boolean student8 = abhijith1.equals(abhijith);
+        System.out.println("Result: "+student8);
 
         System.out.println("");
         Anvith anvith = new Anvith("Anvith",19,'A');
         System.out.println("Student Details: "+anvith);
         System.out.println(avinik.hashCode());
+        Anvith anvith1 = new Anvith("Anvith",19,'A');
+        System.out.println("Compare: "+(anvith1==anvith));
+        boolean student9 = anvith.equals(anvith1);
+        System.out.println("Result: "+student9);
 
         System.out.println("");
         Anvitha anvitha = new Anvitha("Anvitha",22,'A');
         System.out.println("Student Details: "+anvitha);
         System.out.println(anvitha.hashCode());
-
-        System.out.println("");
-        Anisha anisha = new Anisha("Anisha",22,'A');
-        System.out.println("Student Details: "+anisha);
-        System.out.println(anisha.hashCode());
+        Anvitha anvitha1 = new Anvitha("Anvitha",22,'A');
+        System.out.println("Compare: "+(anvitha1==anvitha));
+        boolean student10 = anvith.equals(anvitha1);
+        System.out.println("Result: "+student10);
 
         System.out.println("");
         Aniketh aniketh = new Aniketh("Aniketh",23,'A');
         System.out.println("Student Details: "+aniketh);
         System.out.println(aniketh.hashCode());
+        Aniketh aniketh1 = new Aniketh("Aniketh",23,'A');
+        System.out.println("Compare: "+(aniketh1==aniketh));
+        boolean student11 = aniketh1.equals(aniketh);
+        System.out.println("result: "+student11);
 
         System.out.println("");
         Adhya adhya = new Adhya("Adhya",23,'A');
         System.out.println("Student Details: "+adhya);
         System.out.println(adhya.hashCode());
+        Adhya adhya1 = new Adhya("Adhya",23,'A');
+        System.out.println("Compare: "+(adhya1==adhya));
+        boolean student12 = adhya.equals(adhya1);
+        System.out.println("Result: "+student12);
 
         System.out.println("");
         Azeem azeem = new Azeem("Azeem",19,'A');
         System.out.println("Student Details: "+azeem);
         System.out.println(azeem.hashCode());
+        Azeem azeem1 = new Azeem("Azeem",19,'A');
+        System.out.println("Compare: "+(azeem1==azeem));
+        boolean student13 = azeem1.equals(azeem);
+        System.out.println("Result: "+student13);
 
         System.out.println("");
         Bhargav bhargav = new Bhargav("Bhargav",22,'A');

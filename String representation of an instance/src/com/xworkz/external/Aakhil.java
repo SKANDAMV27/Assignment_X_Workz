@@ -11,6 +11,7 @@ public class Aakhil extends Student {
         this.age=age;
         this.grade=grade;
         this.name=name;
+
     }
     @Override
     public int hashCode()
@@ -18,6 +19,47 @@ public class Aakhil extends Student {
         System.out.println(super.hashCode());
         return 87;
     }
+    @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("NUll");
+            if(obj instanceof Aakhil){
+                System.out.println("Compare: ");
+                Aakhil aakhil = this;
+                Aakhil aakhil1 =(Aakhil) obj;
+                if(aakhil.name==aakhil1.name && aakhil.grade==aakhil1.grade && aakhil.age==aakhil1.age){
+                    System.out.println("Compare: "+(aakhil1==aakhil));
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
     @Override
     public String toString() {
         return "Arun{" +

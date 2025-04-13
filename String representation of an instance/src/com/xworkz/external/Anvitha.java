@@ -19,6 +19,46 @@ public class Anvitha extends Student {
         return 801;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("NUll");
+            if(obj instanceof Anvitha){
+                System.out.println("Compare: ");
+                Anvitha anvitha = this;
+                Anvitha anvitha1 =(Anvitha) obj;
+                if(anvitha.name==anvitha1.name && anvitha.grade==anvitha1.grade && anvitha.age==anvitha1.age){
+                    System.out.println("Compare: "+(anvitha1==anvitha));
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    @Override
     public String toString() {
         return "Arun{" +
                 "name='" + name + '\'' +
