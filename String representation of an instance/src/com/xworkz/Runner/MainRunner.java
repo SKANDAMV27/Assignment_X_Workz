@@ -191,146 +191,274 @@ public class MainRunner {
         Match match = new Match("Hockey",10,"Saturday");
         System.out.println("Match Details: "+match);
         System.out.println(match.hashCode());
+        Match match1 = new Match("Hockey",10,"Saturday");
+        System.out.println("Compare those Things if both are Siminaral: " +(match1==match));
+        boolean equals16 = match.equals(match1);
+        System.out.println("Result: "+equals16);
 
         System.out.println("");
         Song song = new Song("Hunahuna",5,"Koppa");
         System.out.println("Song Details: "+song);
         System.out.println(song.hashCode());
+        Song song1 = new Song("Hunahuna",5,"Koppa");
+        System.out.println("Compare the Following Things: "+(song1==song));
+        boolean equals17 = song1.equals(song);
+        System.out.println("Result :"+equals17);
+
 
         System.out.println("");
         Manch manch = new Manch("Manch",5,'A');
         System.out.println("Choclate Details: "+manch);
         System.out.println(manch.hashCode());
+        Manch manch1 = new Manch("Manch",5,'A');
+        System.out.println("Compare This Things: "+(manch1==manch));
+        boolean equals18 = manch1.equals(manch);
+        System.out.println("Result :"+equals18);
+
 
         System.out.println("");
         DiaryMilk diaryMilk = new DiaryMilk("Diary MIlk",10,'A');
         System.out.println("Choclate Details: "+diaryMilk);
         System.out.println(diaryMilk.hashCode());
+        DiaryMilk diaryMilk1 = new DiaryMilk("Diary MIlk",10,'A');
+        System.out.println("Compare This Iteams: "+(diaryMilk1==diaryMilk));
+        boolean equals19 = diaryMilk1.equals(diaryMilk);
+        System.out.println("Result: "+equals19);
 
         System.out.println("");
         Dark dark = new Dark("Dark",1,'A');
         System.out.println("Choclate Details: "+dark);
         System.out.println(dark.hashCode());
+        Dark dark1 = new Dark("Dark",1,'A');
+        System.out.println("Compare :"+(dark1==dark));
+        boolean equals20 = dark1.equals(dark);
+        System.out.println("Result: "+equals20);
+
 
         System.out.println("");
         FiveStar fiveStar = new FiveStar("FiveStar",20,'A');
         System.out.println("Choclate Details: "+fiveStar);
         System.out.println(fiveStar.hashCode());
+        FiveStar fiveStar1 = new FiveStar("FiveStar",20,'A');
+        System.out.println("Compare :"+(fiveStar1==fiveStar));
+        boolean same12 = fiveStar1.equals(fiveStar);
+        System.out.println("Result: "+same12);
+
 
         System.out.println("");
         MilkyBar milkyBar = new MilkyBar("Milky-Bar",10,'A');
         System.out.println("Choclate Details :"+milkyBar);
         System.out.println(milkyBar.hashCode());
+        MilkyBar milkyBar1 = new MilkyBar("Milky-Bar",10,'A');
+        System.out.println("Compare: "+(milkyBar1==milkyBar));
+        boolean same13 = milkyBar1.equals(milkyBar);
+        System.out.println("Result :"+same13);
+
 
         System.out.println("");
         KinderJoy kinderJoy = new KinderJoy("Kinder Joy",30,'C');
         System.out.println("Choclate Details: "+kinderJoy);
         System.out.println(kinderJoy.hashCode());
+        KinderJoy kinderJoy1 = new KinderJoy("Kinder Joy",30,'C');
+        System.out.println("Compare: "+(kinderJoy1==kinderJoy));
+        boolean same14 = kinderJoy.equals(kinderJoy1);
+        System.out.println("Result :"+same14);
 
         System.out.println("");
         Kitkat kitkat = new Kitkat("Kitkat",5,'A');
         System.out.println("Choclate Details: "+kitkat);
         System.out.println(kitkat.hashCode());
+        Kitkat kitkat1 = new Kitkat("Kitkat",5,'A');
+        System.out.println("Compare :"+(kitkat1==kitkat));
+        boolean same15 = kitkat.equals(kitkat1);
+        System.out.println("Result :"+same15);
 
         System.out.println("");
         Puls puls = new Puls("Puls",5,'C');
         System.out.println("Choclate Details: "+puls);
         System.out.println(puls.hashCode());
+        Puls puls1 = new Puls("Puls",5,'C');
+        System.out.println("Compare :"+(puls1==puls));
+        boolean same16 = puls.equals(puls1);
+        System.out.println("Result :"+same16);
+
 
         System.out.println("");
         KachaMango kachaMango = new KachaMango("Kacha Mango Byte",1,'A');
         System.out.println("Choclate Details: "+kachaMango);
         System.out.println(kachaMango.hashCode());
+        KachaMango kachaMango1 = new KachaMango("Kacha Mango Byte",1,'A');
+        System.out.println("Compare: "+(kachaMango1==kachaMango));
+        boolean same17 = kachaMango.equals(kachaMango1);
+        System.out.println("Result: "+same17);
+
 
         System.out.println("");
         Ferrero ferrero = new Ferrero("Ferrero",70,'A');
         System.out.println("Choclate Details: "+ferrero);
         System.out.println(ferrero.hashCode());
+        Ferrero ferrero1 = new Ferrero("Ferrero",70,'A');
+        System.out.println("Compare: "+(ferrero1==ferrero));
+        boolean same18 = ferrero1.equals(ferrero);
+        System.out.println("Result :"+(ferrero1==ferrero));
+
 
         System.out.println("");
         Milka milka = new Milka("Milka",100,'A');
         System.out.println("Choclate Details: "+milka);
         System.out.println(milka.hashCode());
+        Milka milka1 = new Milka("Milka",100,'A');
+        System.out.println("Compare: "+(milka1==milka));
+        boolean same19 = milka1.equals(milka);
+        System.out.println("Result :"+milka1.equals(milka));
+
 
         System.out.println("");
         Lindt lindt = new Lindt("Lindt",120,'A');
         System.out.println("Choclate Details: "+lindt);
         System.out.println(lindt.hashCode());
+        Lindt lindt1 = new Lindt("Lindt",120,'A');
+        System.out.println("Compare :"+(lindt1==lindt));
+        boolean same20 = lindt1.equals(lindt);
+        System.out.println("Result :"+same20);
+
 
         System.out.println("");
         Richart richart = new Richart("Richart",80,'A');
         System.out.println("Choclate Details: "+richart);
         System.out.println(richart.hashCode());
+        Richart richart1 = new Richart("Richart",80,'A');
+        System.out.println("Compare :"+(richart1==richart));
+        boolean same31 = richart1.equals(richart);
+        System.out.println("Result :"+same31);
+
 
         System.out.println("");
         Nestle nestle = new Nestle("Nestle",45,'A');
         System.out.println("Choclate Details: "+nestle);
         System.out.println(nestle.hashCode());
+        Nestle nestle1 = new Nestle("Nestle",45,'A');
+        System.out.println("Compare :"+(nestle1==nestle));
+        boolean same41 = nestle1.equals(nestle);
+        System.out.println("Result: "+same41);
+
 
         System.out.println("");
         Valrhona valrhona = new Valrhona("Valrhona",500,'A');
         System.out.println("Choclate Details: "+valrhona);
         System.out.println(valrhona.hashCode());
+        Valrhona valrhona1 = new Valrhona("Valrhona",500,'A');
+        System.out.println("Compare :"+(valrhona1==valrhona));
+        boolean same51 = valrhona1.equals(valrhona);
+        System.out.println("Result: "+same51);
+
 
         System.out.println("");
         Godiva godiva = new Godiva("Godiva",500,'B');
         System.out.println("Choclate Details: "+godiva);
         System.out.println(godiva.hashCode());
+        Godiva godiva1 = new Godiva("Godiva",500,'B');
+        System.out.println("Compare the This: "+(godiva1==godiva));
+        boolean same61 = godiva1.equals(godiva);
+        System.out.println("Result: "+same61);
+
 
         System.out.println("");
         Amul amul = new Amul("Amul",45,'c');
         System.out.println("Choclate Details: "+amul);
         System.out.println(amul.hashCode());
+        Amul amul1 = new Amul("Amul",45,'c');
+        System.out.println("Compare: "+(amul1==amul));
+        boolean same71 = amul1.equals(amul);
+        System.out.println("Result: "+same71);
 
         System.out.println("");
         Ghirardelli ghirardelli = new Ghirardelli("Ghirardelli",5,'A');
         System.out.println("Choclate Details: "+ghirardelli);
         System.out.println(ghirardelli.hashCode());
+        Ghirardelli ghirardelli1 = new Ghirardelli("Ghirardelli",5,'A');
+        System.out.println("Compare :"+(ghirardelli==ghirardelli1));
+        boolean same81 = ghirardelli1.equals(ghirardelli);
+        System.out.println("Result :"+same81);
 
         System.out.println("");
         Cadbury cadbury = new Cadbury("Casbury",45,'A');
         System.out.println("Choclate Details: "+cadbury);
         System.out.println(cadbury.hashCode());
+        Cadbury cadbury1 = new Cadbury("Casbury",45,'A');
+        System.out.println("Compare :"+(cadbury1=cadbury));
+        boolean same22=cadbury1.equals(cadbury);
+        System.out.println("Result :"+same22);
 
         System.out.println("");
         MilkChocolate milkChocolate = new MilkChocolate("Milkchoclate",45,'A');
         System.out.println("Choclate Details :"+milkChocolate);
         System.out.println(milkChocolate.hashCode());
+        MilkChocolate milkChocolate1 = new MilkChocolate("Milkchoclate",45,'A');
+        System.out.println("Compare: "+(milkChocolate1==milkChocolate));
+        boolean same33 =milkChocolate1.equals(milkChocolate);
+        System.out.println("Result: "+same33);
 
         System.out.println("");
         WhiteChocolate whiteChocolate = new WhiteChocolate("White Choclate",52,'A');
         System.out.println("Choclate Details: "+whiteChocolate);
         System.out.println(whiteChocolate.hashCode());
+        WhiteChocolate whiteChocolate1 = new WhiteChocolate("White Choclate",52,'A');
+        System.out.println("Compare This Things: "+(whiteChocolate1==whiteChocolate));
+        boolean same44 = whiteChocolate1.equals(whiteChocolate);
 
         System.out.println("");
         CocoaPowder cocoaPowder = new CocoaPowder("Cocoa Power",25,'C');
         System.out.println("Choclate Details: "+cocoaPowder);
         System.out.println(cocoaPowder.hashCode());
+        CocoaPowder cocoaPowder1 = new CocoaPowder("Cocoa Power",25,'C');
+        System.out.println("Compare This Things: "+(cocoaPowder1==cocoaPowder));
+        boolean same55= cocoaPowder1.equals(cocoaPowder);
+        System.out.println("Result: "+same55);
 
         System.out.println("");
         BittersweetChocolate bittersweetChocolate = new BittersweetChocolate("Bitter Sweet Choclate",75,'A');
         System.out.println("Choclate Details: "+bittersweetChocolate);
         System.out.println(bittersweetChocolate.hashCode());
+        BittersweetChocolate bittersweetChocolate1 = new BittersweetChocolate("Bitter Sweet Choclate",75,'A');
+        System.out.println("Compare of the Things: "+(bittersweetChocolate1==bittersweetChocolate));
+        boolean same66 = bittersweetChocolate1.equals(bittersweetChocolate);
+        System.out.println("Result: "+same66);
 
         System.out.println("");
         Arun arun = new Arun("Arun",21,'A');
         System.out.println("Student Details: "+arun);
         System.out.println(arun.hashCode());
+        Arun arun1 = new Arun("Arun",21,'A');
+        boolean student1 = arun1.equals(arun);
+        System.out.println(student1);
 
         System.out.println("");
         Amith amith = new Amith("Amith",24,'A');
         System.out.println("Student Details: "+amith);
         System.out.println(amith.hashCode());
+        Amith amith1 = new Amith("Amith",24,'A');
+        System.out.println("Compare: "+(amith1==amith));
+        boolean student2 = amith1.equals(amith);
+        System.out.println("Result: "+student2);
+
 
         System.out.println("");
         Abhi abhi = new Abhi("Abhi",27,'A');
         System.out.println("Student Details: "+abhi);
         System.out.println(abhi.hashCode());
+        Abhi abhi1 = new Abhi("Abhi",27,'A');
+        System.out.println("Compare: "+(abhi==abhi1));
+        boolean student3 = abhi1.equals(abhi);
+        System.out.println("Result: "+student3);
+
+
 
         System.out.println("");
         Aakhil aakhil = new Aakhil("Aahkil",25,'B');
         System.out.println("Student Details: "+aakhil);
         System.out.println(aakhil.hashCode());
+        
 
         System.out.println("");
         Adash adash = new Adash("Adash",30,'A');

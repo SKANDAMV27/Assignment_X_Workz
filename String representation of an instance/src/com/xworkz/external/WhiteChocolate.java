@@ -19,6 +19,48 @@ public class WhiteChocolate extends Chochalate {
         return 421;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value: ");
+            if(obj instanceof WhiteChocolate){
+                System.out.println("Comapare: ");
+                WhiteChocolate whiteChocolate = this;
+                WhiteChocolate whiteChocolate1 =(WhiteChocolate) obj;
+                if(whiteChocolate.price==whiteChocolate1.price && whiteChocolate.name==whiteChocolate1.name && whiteChocolate.grade==whiteChocolate1.grade){
+                    System.out.println("Compare With the Things: "+(whiteChocolate1==whiteChocolate));
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    @Override
     public String toString() {
         return "Ferrero{" +
                 "name='" + name + '\'' +

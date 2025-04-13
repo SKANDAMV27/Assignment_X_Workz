@@ -19,6 +19,48 @@ public class Ferrero extends Chochalate {
         return 4;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value: ");
+            if(obj instanceof Ferrero){
+                System.out.println("Comapare: ");
+                Ferrero ferrero = this;
+                Ferrero ferrero1 =(Ferrero) obj;
+                if(ferrero.price==ferrero1.price && ferrero.name==ferrero1.name && ferrero.grade==ferrero1.grade){
+                    System.out.println("Compare With the Things: "+(ferrero1==ferrero));
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    @Override
     public String toString() {
         return "Ferrero{" +
                 "name='" + name + '\'' +

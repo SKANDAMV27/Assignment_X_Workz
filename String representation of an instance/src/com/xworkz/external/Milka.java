@@ -19,6 +19,48 @@ public class Milka extends Chochalate {
         return 526;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value: ");
+            if(obj instanceof Milka){
+                System.out.println("Comapare: ");
+                Milka milka = this;
+                Milka milka1 =(Milka) obj;
+                if(milka.price==milka1.price && milka.name==milka1.name && milka.grade==milka1.grade){
+                    System.out.println("Compare With the Things: "+(milka1==milka));
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    @Override
     public String toString() {
         return "Ferrero{" +
                 "name='" + name + '\'' +

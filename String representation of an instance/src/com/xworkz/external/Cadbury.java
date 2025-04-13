@@ -19,6 +19,46 @@ public class Cadbury extends Chochalate {
         return 8026;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value:");
+            if(obj instanceof Cadbury){
+                Cadbury cadbury = this;
+                Cadbury cadbury1 = (Cadbury) obj;
+                if(cadbury.grade==cadbury1.grade && cadbury.name==cadbury1.name&&cadbury.price==cadbury1.price){
+                    System.out.println("Compare: "+(cadbury1==cadbury));
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getPrice() {
+        return price;
+    }
+
+    public void setPrice(int price) {
+        this.price = price;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    @Override
     public String toString() {
         return "Ferrero{" +
                 "name='" + name + '\'' +
