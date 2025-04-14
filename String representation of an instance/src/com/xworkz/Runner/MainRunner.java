@@ -819,6 +819,11 @@ public class MainRunner {
         System.out.println("Compare: "+(kushal1==kushal));
         boolean student50 = kushal.equals(kushal1);
         System.out.println("Result: "+student50);
+        Kushal kushal2 = new Kushal("Kushal",15,'B');
+        System.out.println("Compare: "+(kushal1==kushal2));
+        boolean student45 = kushal.equals(kushal1);
+        System.out.println("Result: "+student45);
+
 
 
 
