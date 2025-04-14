@@ -19,6 +19,22 @@ public class Kiran extends Student {
         return 12363;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value");
+            if(obj instanceof Kiran){
+                Kiran kiran = this;
+                Kiran kiran1 =(Kiran) obj;
+                if(kiran.age== kiran1.age&& kiran.grade== kiran1.grade&&kiran.name==kiran1.name){
+                    System.out.println("Compare: "+(kiran==kiran1));
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+    @Override
     public String toString() {
         return "Kiran{" +
                 "name='" + name + '\'' +

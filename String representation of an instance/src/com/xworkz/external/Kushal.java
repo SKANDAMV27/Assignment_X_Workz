@@ -19,6 +19,47 @@ public class Kushal extends Student {
         return 84741;
     }
     @Override
+    public boolean equals(Object obj) {
+        if(obj!=null){
+            System.out.println("Null Value");
+            if(obj instanceof Kushal){
+                Kushal kushal = this;
+                Kushal kushal1 =(Kushal) obj;
+                if(kushal.age== kushal1.age&& kushal.grade== kushal1.grade&&kushal.name==kushal1.name){
+                    System.out.println("Compare: "+(kushal1==kushal));
+                    return true;
+                }
+            }
+
+        }
+        return false;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public char getGrade() {
+        return grade;
+    }
+
+    public void setGrade(char grade) {
+        this.grade = grade;
+    }
+
+    @Override
     public String toString() {
         return "Kushal{" +
                 "name='" + name + '\'' +

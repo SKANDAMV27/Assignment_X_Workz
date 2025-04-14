@@ -545,31 +545,52 @@ public class MainRunner {
         Bhargav bhargav = new Bhargav("Bhargav",22,'A');
         System.out.println("Student Details: "+bhargav);
         System.out.println(bhargav.hashCode());
+        Bhargav bhargav1 = new Bhargav("Bhargav",22,'A');
+        System.out.println("Compare The Things: "+(bhargav1==bhargav));
+        boolean student14 = bhargav1.equals(bhargav);
 
         System.out.println("");
         Bharath bharath = new Bharath("Bharath",26,'A');
         System.out.println("Student Details: "+bharath);
         System.out.println(bharath.hashCode());
+        Bharath bharath1 = new Bharath("Bharath",26,'A');
+        System.out.println("Compare: "+(bharath==bharath1));
+        boolean student15= bharath1.equals(bharath);
 
         System.out.println("");
         Bhavanth bhavanth = new Bhavanth("Bhavanth",25,'B');
         System.out.println("Student Details: "+bhavanth);
         System.out.println(bhavanth.hashCode());
+        Bhavanth bhavanth1 = new Bhavanth("Bhavanth",25,'B');
+        System.out.println("Compare: "+(bhavanth==bhavanth1));
+        boolean student16 = bhavanth1.equals(bhavanth);
+        System.out.println("Result: "+student16);
 
         System.out.println("");
         Bharathwaj bharathwaj = new Bharathwaj("Bharathwaj",26,'A');
         System.out.println("Student Details :"+bharathwaj);
         System.out.println(bharathwaj.hashCode());
+        Bharathwaj bharathwaj1 = new Bharathwaj("Bharathwaj",26,'A');
+        System.out.println("Compare: "+(bharathwaj1==bharathwaj));
+        boolean student17 = bharathwaj1.equals(bharathwaj);
 
         System.out.println("");
         Bhargavi bhargavi = new Bhargavi("Bhargavi",23,'A');
         System.out.println("Student Details: "+bhargavi);
         System.out.println(bhargavi.hashCode());
+        Bhargavi bhargavi1 = new Bhargavi("Bhargavi",23,'A');
+        System.out.println("Compare: "+(bhargavi1==bhargavi));
+        boolean student18 = bhargavi.equals(bhargavi);
+        System.out.println(student18);
 
         System.out.println("");
         Charan charan = new Charan("Charan",12,'A');
         System.out.println("Student Details: "+charan);
         System.out.println(charan.hashCode());
+        Charan charan1 = new Charan("Charan",12,'A');
+        System.out.println("Campare the Things: ");
+        boolean student19 = charan.equals(charan);
+        System.out.println("Result: "+student19);
 
         System.out.println("");
         Chandrushekar chandrushekar = new Chandrushekar("Chandrushekar",23,'B');
@@ -645,6 +666,10 @@ public class MainRunner {
         Balu balu = new Balu("Balu",24,'A');
         System.out.println("Student Details: "+balu);
         System.out.println(balu.hashCode());
+        Balu balu1 = new Balu("Balu",24,'A');
+        System.out.println("Compare: "+(balu1==balu));
+        boolean student20 = balu1.equals(balu);
+        System.out.println("Result: "+student20);
 
         System.out.println("");
         Esa esa = new Esa("Esa",26,'A');
@@ -746,36 +771,56 @@ public class MainRunner {
         Kiran kiran = new Kiran("Kiran",28,'A');
         System.out.println("Student Details: "+kiran);
         System.out.println(kiran.hashCode());
+        Kiran kiran1 = new Kiran("Kiran",28,'A');
+        System.out.println("Compare the Things: "+(kiran1==kiran));
+        boolean student56 = kiran1.equals(kiran);
 
         System.out.println("");
         Karan karan = new Karan("Karan",29,'B');
         System.out.println("Student Details: "+karan);
-        System.out.println(karan.hashCode())
-        ;
+        System.out.println(karan.hashCode());
+        Karan karan1 = new Karan("Karan",29,'B');
+        System.out.println("Compare: "+(karan==karan1));
+        boolean student55 = karan.equals(karan1);
+        System.out.println("Result: "+student55);
+
         System.out.println("");
         Kowstubha kowstubha =new Kowstubha("Kowstubha",23,'A');
         System.out.println("Student Details: "+kowstubha);
         System.out.println(kowstubha.hashCode());
+        Kowstubha kowstubha1 =new Kowstubha("Kowstubha",23,'A');
+        System.out.println("Compare: "+(kowstubha1==kowstubha));
+        boolean student54 = kowstubha1.equals(kowstubha);
+        System.out.println("Result: "+student54);
 
         System.out.println("");
         Kishor kishor = new Kishor("Kishor",35,'C');
         System.out.println("Student Details: "+kishor);
         System.out.println(kishor.hashCode());
+        Kishor kishor1 = new Kishor("Kishor",35,'C');
+        System.out.println("Compare the Thigs: "+(kishor1==kishor));
+        boolean student52=kishor1.equals(kishor);
+        System.out.println("Result: "+student52);
 
         System.out.println("");
         Kruthi kruthi = new Kruthi("Kruthi",26,'A');
         System.out.println("Student Details: "+kruthi);
         System.out.println(kruthi.hashCode());
+        Kruthi kruthi1 = new Kruthi("Kruthi",26,'A');
+        System.out.println("Compare The Things: "+(kruthi1==kruthi));
+        boolean student51 = kruthi1.equals(kruthi);
+        System.out.println("Result: "+student51);
 
         System.out.println("");
         Kushal kushal = new Kushal("Kushal",15,'A');
         System.out.println("Student Details: "+kushal);
         System.out.println(kushal.hashCode());
+        Kushal kushal1 = new Kushal("Kushal",15,'A');
+        System.out.println("Compare: "+(kushal1==kushal));
+        boolean student50 = kushal.equals(kushal1);
+        System.out.println("Result: "+student50);
 
-        System.out.println("");
-        Krushik krushik = new Krushik("Krushik",34,'A');
-        System.out.println("Student Details: "+krushik);
-        System.out.println(krushik.hashCode());
+
 
 
 

@@ -62,7 +62,7 @@ public class Aakhil extends Student {
 
     @Override
     public String toString() {
-        return "Arun{" +
+        return "Aakhil{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", grade=" + grade +
