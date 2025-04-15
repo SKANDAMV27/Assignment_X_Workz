@@ -738,7 +738,7 @@ public class MainRunner {
         System.out.println(harsha.hashCode());
 
         System.out.println("");
-        Harshith harshith = new Harshith("Harshith",15,'A');
+         Harshith harshith = new Harshith("Harshith",15,'A');
         System.out.println("Student Details: "+harshith);
         System.out.println(harshith.hashCode());
 
@@ -761,11 +761,22 @@ public class MainRunner {
         Imaz imaz = new Imaz("Imaz",21,'A');
         System.out.println("Student Details: "+imaz);
         System.out.println(imaz.hashCode());
+        Imaz imaz1 = new Imaz("Imaz",21,'A');
+        System.out.println("Compare: "+(imaz1==imaz));
+        boolean studennt54=imaz1.equals(imaz);
+        System.out.println("Result: "+studennt54);
+
+
 
         System.out.println("");
         Jagath jagath = new Jagath("Jagath",23,'A');
         System.out.println("Student Details: "+jagath);
         System.out.println(jagath.hashCode());
+        Jagath jagath1 = new Jagath("Jagath",23,'A');
+        System.out.println("Compare: "+(jagath==jagath1));
+        boolean student55 = jagath.equals(jagath);
+        System.out.println("Result: "+student55);
+
 
         System.out.println("");
         Kiran kiran = new Kiran("Kiran",28,'A');
