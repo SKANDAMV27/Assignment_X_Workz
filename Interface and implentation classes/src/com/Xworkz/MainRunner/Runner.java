@@ -542,6 +542,67 @@ public class Runner {
         student29.gameRulls();
         student29.schoolRulls();
 
+        System.out.println("");
+        Student26 student30 = new Student26();
+        student30.changeRull();
+        student30.collegeRulls();
+        student30.documentRull();
+        student30.examRulls();
+        student30.gameRulls();
+        student30.homeRulls();
+        student30.priceRull();
+
+        System.out.println("");
+        Student25 student31 = new Student25();
+        student31.admission();
+        student31.billRulls();
+        student31.cleanRulls();
+        student31.fees();
+        student31.food();
+        student31.iteamRulls();
+        student31.lockRulls();
+        student31.orderRulls();
+        student31.rentRull();
+
+        System.out.println("");
+        System.out.println("");
+        Student26 student32 = new Student26();
+        student32.changeRull();
+        student32.collegeRulls();
+        student32.documentRull();
+        student32.examRulls();
+        student32.gameRulls();
+        student32.homeRulls();
+        student32.priceRull();
+
+        System.out.println("");
+        Student28 student33 = new Student28();
+        student33.billRulls();
+        student33.changeRull();
+        student33.collegeRulls();
+        student33.homeRulls();
+        student3.teacherRulls();
+        student33.examRulls();
+        student33.gameRulls();
+        student33.orderRulls();
+
+        System.out.println("");
+        Student28 student35 = new Student28();
+        student35.orderRulls();
+        student35.gameRulls();
+        student35.priceRull();
+        student35.homeRulls();
+        student35.schoolRulls();
+        student35.examRulls();
+        student33.changeRull();
+        student33.documentRull();
+
+
+
+
+
+
+
 
 
 
