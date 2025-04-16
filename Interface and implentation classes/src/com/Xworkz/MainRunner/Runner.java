@@ -230,6 +230,98 @@ public class Runner {
         vivaan.schoolRulls();
 
         System.out.println("");
+        Vishal vishal = new VishaoRule();
+        vishal.examRulls();
+        vishal.gameRulls();
+        vishal.schoolRulls();
+
+        System.out.println("");
+        Viresh viresh = new VireshRule();
+        viresh.examRulls();
+        viresh.gameRulls();
+        viresh.schoolRulls();
+
+        System.out.println("");
+        Viraj viraj = new VirajRule();
+        viraj.examRulls();
+        viraj.gameRulls();
+        viraj.schoolRulls();
+
+        System.out.println("");
+        Vikram vikram = new VikramRule();
+        vikram.examRulls();
+        vikram.schoolRulls();
+        vikram.gameRulls();
+
+        System.out.println("");
+        Vikas vikas = new VikasRule();
+        vikas.examRulls();
+        vikas.schoolRulls();
+        vikas.gameRulls();
+
+        System.out.println("");
+        Vibhav vibhav = new VibhavRule();
+        vibhav.examRulls();
+        vibhav.gameRulls();
+        vibhav.schoolRulls();
+
+        System.out.println("");
+        Nirav nirav = new NiravRule();
+        nirav.examRulls();
+        nirav.gameRulls();
+        nirav.schoolRulls();
+
+        System.out.println("");
+        Nishant nishant = new NishanthRule();
+        nishant.examRulls();
+        nishant.gameRulls();
+        nishant.schoolRulls();
+
+        System.out.println("");
+        Jatin jatin = new JatinRule();
+        jatin.examRulls();
+        jatin.gameRulls();
+        jatin.schoolRulls();
+
+        System.out.println("");
+        Ishaan ishaan = new IshaanRule();
+        ishaan.examRulls();
+        ishaan.gameRulls();
+        ishaan.schoolRulls();
+
+        System.out.println("");
+        Krishna krishna = new KrishnaRule();
+        krishna.examRulls();
+        krishna.gameRulls();
+        krishna.schoolRulls();
+
+        System.out.println("");
+        Krishiv krishiv = new KrishivRule();
+        krishiv.examRulls();
+        krishiv.gameRulls();
+        krishiv.schoolRulls();
+
+        System.out.println("");
+        Kian kian = new KianRule();
+        kian.examRulls();
+        kian.gameRulls();
+        kian.examRulls();
+
+        System.out.println("");
+        Darshan darshan = new DarshanRule();
+        darshan.examRulls();
+        darshan.gameRulls();
+        darshan.schoolRulls();
+
+
+
+
+
+
+
+
+
+
 
 
 
