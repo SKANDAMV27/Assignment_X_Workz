@@ -485,6 +485,68 @@ public class Runner {
         student20.gameRulls();
         student20.schoolRulls();
 
+        System.out.println("");
+        Student16 student21 = new Student16();
+        student21.examRulls();
+        student21.gameRulls();
+        student21.schoolRulls();
+
+        System.out.println("");
+        Student17 student22 = new Student17();
+        student17.examRulls();
+        student17.gameRulls();
+        student17.schoolRulls();
+
+        System.out.println("");
+        Student18 student23 = new Student18();
+        student23.collegeRulls();
+        student23.examRulls();
+        student23.homeRulls();
+        student23.schoolRulls();
+        student23.gameRulls();
+
+        System.out.println("");
+        Student19 student24 = new Student19();
+        student24.examRulls();
+        student24.gameRulls();
+        student24.schoolRulls();
+
+        System.out.println("");
+        System.out.println("");
+        Student20 student25 = new Student20();
+        student25.admission();
+        student25.fees();
+        student25.food();
+
+        System.out.println("");
+        Student21 student26 = new Student21();
+        student26.examRulls();
+        student26.gameRulls();
+        student26.schoolRulls();
+
+        System.out.println("");
+        Student22 student27 = new Student22();
+        student27.examRulls();
+        student27.gameRulls();
+        student27.schoolRulls();
+
+        System.out.println("");
+        Student23 student28 = new Student23();
+        student28.examRulls();
+        student28.gameRulls();
+        student28.schoolRulls();
+
+        System.out.println("");
+        Student24 student29 = new Student24();
+        student29.examRulls();
+        student29.gameRulls();
+        student29.schoolRulls();
+
+
+
+
+
+
 
 
 
