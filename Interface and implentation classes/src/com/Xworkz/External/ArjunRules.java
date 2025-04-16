@@ -1,9 +1,8 @@
 package com.Xworkz.External;
 
-import com.Xworkz.Internal.Student2;
+import com.Xworkz.Internal.Arjun;
 
-public class Student2Rulls implements Student2 {
-
+public class ArjunRules implements Arjun {
     @Override
     public void schoolRulls() {
         System.out.println("School Rulls for Student.");

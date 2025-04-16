@@ -1,6 +1,6 @@
 package com.Xworkz.Internal;
 
-public interface Student3 {
+public interface Arav {
     void teacherRulls();
     void principalRulls();
     void presidentRulls();

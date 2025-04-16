@@ -1,6 +1,6 @@
 package com.Xworkz.Internal;
 
-public interface Student1 {
+public interface Tarun {
     void schoolRulls();
     void gameRulls();
     void examRulls();

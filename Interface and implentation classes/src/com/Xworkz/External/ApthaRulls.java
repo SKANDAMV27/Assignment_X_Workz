@@ -1,8 +1,8 @@
 package com.Xworkz.External;
 
-import com.Xworkz.Internal.Student3;
+import com.Xworkz.Internal.Aptha;
 
-public class Student3Rulls implements Student3 {
+public class ApthaRulls implements Aptha {
     @Override
     public void presidentRulls() {
         System.out.println("President Rulls: ");

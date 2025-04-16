@@ -1,6 +1,6 @@
 package com.Xworkz.Internal;
 
-public interface Student2 {
+public interface Tanmay {
     void schoolRulls();
     void gameRulls();
     void examRulls();
