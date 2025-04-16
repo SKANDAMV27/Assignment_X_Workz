@@ -1,5 +1,6 @@
 package com.Xworkz.MainRunner;
 
+import com.Xworkz.BrandClass.*;
 import com.Xworkz.External.*;
 import com.Xworkz.Internal.*;
 
@@ -312,6 +313,205 @@ public class Runner {
         darshan.examRulls();
         darshan.gameRulls();
         darshan.schoolRulls();
+
+        System.out.println("");
+        Gautam gautam = new GautamRule();
+        gautam.examRulls();
+        gautam.gameRulls();
+        gautam.schoolRulls();
+
+        System.out.println("");
+        Harsh harsh = new HarshRule();
+        harsh.examRulls();
+        harsh.gameRulls();
+        harsh.schoolRulls();
+
+        System.out.println("");
+        Harvith harvith = new HarvithRule();
+        harvith.examRulls();
+        harvith.gameRulls();
+        harvith.schoolRulls();
+
+        System.out.println("");
+        Kripal kripal = new KripalRule();
+        kripal.examRulls();
+        kripal.gameRulls();
+        kripal.schoolRulls();
+
+        System.out.println("");
+        Manan manan = new MananRule();
+        manan.examRulls();
+        manan.gameRulls();
+        manan.schoolRulls();
+
+        System.out.println("");
+        Prajwal prajwal = new PrajwalRule();
+        prajwal.examRulls();
+        prajwal.gameRulls();
+        prajwal.schoolRulls();
+
+        System.out.println("");
+        Pranay pranay = new PranayRule();
+        pranay.examRulls();
+        pranay.gameRulls();
+        pranay.schoolRulls();
+
+        System.out.println("");
+        Pranav pranav = new PranavRule();
+        pranav.examRulls();
+        pranav.gameRulls();
+        pranav.schoolRulls();
+
+        System.out.println("");
+        Prithvi prithvi = new PrithviRule();
+        prithvi.examRulls();
+        prithvi.schoolRulls();
+        prithvi.gameRulls();
+
+        System.out.println("");
+        Raghav raghav = new RaghavRule();
+        raghav.examRulls();
+        raghav.schoolRulls();
+        raghav.gameRulls();
+
+        System.out.println("");
+        Parth parth = new PrathRule();
+        parth.examRulls();
+        parth.schoolRulls();
+        parth.gameRulls();
+
+        System.out.println("");
+        Student1 student6 = new Student1();
+        student6.collegeRulls();
+        student6.examRulls();
+        student6.homeRulls();
+        student6.schoolRulls();
+        student6.gameRulls();
+
+        System.out.println("");
+        Student2 student7 = new Student2();
+        student7.examRulls();
+        student7.gameRulls();
+        student7.schoolRulls();
+
+        System.out.println("");
+        Student3 student8 = new Student3();
+        student8.changeRull();
+        student8.documentRull();
+        student8.priceRull();
+        student8.subRulls();
+        student8.gameRulls();
+
+        System.out.println("");
+        Student4 student9 = new Student4();
+        student9.examRulls();
+        student9.gameRulls();
+        student9.schoolRulls();
+
+        System.out.println("");
+        Student student = new Student();
+        student.changeRull();
+        student.documentRull();
+        student.priceRull();
+
+        System.out.println("");
+        Student5 student10 = new Student5();
+        student10.admission();
+        student10.fees();
+        student10.food();
+
+        System.out.println("");
+        Student6 student11 = new Student6();
+        student11.courseRulls();
+        student11.feesRulls();
+        student11.gameRulls();
+        student11.timeRulls();
+        student11.streemRulls();
+
+        System.out.println("");
+        Student7 student12 = new Student7();
+        student12.examRulls();
+        student12.gameRulls();
+        student12.schoolRulls();
+
+        System.out.println("");
+        Student8 student13 = new Student8();
+        student13.examRulls();
+        student13.gameRulls();
+        student13.schoolRulls();
+
+        System.out.println("");
+        Student9 student14 = new Student9();
+        student14.examRulls();
+        student14.gameRulls();
+        student14.schoolRulls();
+
+        System.out.println("");
+        Student10 student15 = new Student10();
+        student15.examRulls();
+        student15.gameRulls();
+        student15.schoolRulls();
+
+        System.out.println("");
+        Student11 student16 = new Student11();
+        student16.examRulls();
+        student11.subRulls();
+        student11.gameRulls();
+        student11.feesRulls();
+
+        System.out.println("");
+        Student12 student17 = new Student12();
+        student17.examRulls();
+        student17.gameRulls();
+        student17.schoolRulls();
+
+        System.out.println("");
+        Student13 student18 = new Student13();
+        student13.examRulls();
+        student13.gameRulls();
+        student13.schoolRulls();
+
+        System.out.println("");
+        Student14 student19 = new Student14();
+        student19.courseRulls();
+        student19.feesRulls();
+        student19.gameRulls();
+        student19.timeRulls();
+        student19.streemRulls();
+
+        System.out.println("");
+        Student15 student20 = new Student15();
+        student20.examRulls();
+        student20.gameRulls();
+        student20.schoolRulls();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
