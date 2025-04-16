@@ -194,6 +194,47 @@ public class Runner {
         tanmay.schoolRulls();
 
         System.out.println("");
+        Tejas tejas = new TejasRule();
+        tejas.examRulls();
+        tejas.gameRulls();
+        tejas.schoolRulls();
+
+        System.out.println("");
+        Trishul trishul = new TrishulRule();
+        trishul.examRulls();
+        trishul.gameRulls();
+        trishul.schoolRulls();
+
+        System.out.println("");
+        Zaiden zaiden = new ZaidenRule();
+        zaiden.examRulls();
+        zaiden.gameRulls();
+        zaiden.schoolRulls();
+
+        System.out.println("");
+        Yuvan yuvan = new YuvanRules();
+        yuvan.examRulls();
+        yuvan.gameRulls();
+        yuvan.schoolRulls();
+
+        System.out.println("");
+        Yash yash = new YashRules();
+        yash.examRulls();
+        yash.gameRulls();
+        yash.schoolRulls();
+
+        System.out.println("");
+        Vivaan vivaan = new VivaanRule();
+        vivaan.examRulls();
+        vivaan.gameRulls();
+        vivaan.schoolRulls();
+
+        System.out.println("");
+
+
+
+
+
 
 
 
