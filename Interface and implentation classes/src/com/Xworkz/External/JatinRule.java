@@ -17,6 +17,10 @@ public class JatinRule implements Jatin {
     @Override
     public void examRulls() {
         System.out.println("Exam Rulls for Student.");
+    }
 
+    @Override
+    public void Rules() {
+        System.out.println("Jathi of the Rules");
     }
 }

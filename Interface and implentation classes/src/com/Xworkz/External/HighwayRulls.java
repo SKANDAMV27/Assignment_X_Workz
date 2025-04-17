@@ -16,6 +16,10 @@ public class HighwayRulls implements HighWay {
     @Override
     public void symbolRulls() {
         System.out.println("Highway Signal Rulls");
+    }
 
+    @Override
+    public void rule() {
+        System.out.println("Rules HighWay");
     }
 }

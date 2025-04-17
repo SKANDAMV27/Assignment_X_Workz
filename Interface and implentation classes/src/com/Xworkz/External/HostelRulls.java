@@ -17,6 +17,10 @@ public class HostelRulls implements Hostel {
     @Override
     public void admission() {
         System.out.println("Hostel Admission Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules Student");
     }
 }

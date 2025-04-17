@@ -36,6 +36,10 @@ public class Student14 implements School, college {
     @Override
     public void courseRulls() {
         System.out.println("Course Rule");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules");
     }
 }

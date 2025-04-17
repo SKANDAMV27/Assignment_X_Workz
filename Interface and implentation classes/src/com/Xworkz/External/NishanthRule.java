@@ -18,6 +18,10 @@ public class NishanthRule implements Nishant {
     @Override
     public void examRulls() {
         System.out.println("Exam Rulls for Student.");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Nishanth Rule");
     }
 }

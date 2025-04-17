@@ -11,12 +11,15 @@ public class HotelRulls implements Hotel {
     @Override
     public void billRulls() {
         System.out.println("Bill Rulls");
-
     }
 
     @Override
     public void orderRulls() {
         System.out.println("Order Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules");
     }
 }

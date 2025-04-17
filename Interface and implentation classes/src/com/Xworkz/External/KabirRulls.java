@@ -17,6 +17,10 @@ public class KabirRulls implements Kabir {
     @Override
     public void presidentRulls() {
         System.out.println("President Rulls");
+    }
 
+    @Override
+    public void Rules() {
+        System.out.println("Rules of Kabir");
     }
 }

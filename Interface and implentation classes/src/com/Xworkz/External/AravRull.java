@@ -17,6 +17,10 @@ public class AravRull implements Arav {
     @Override
     public void presidentRulls() {
         System.out.println("President Rulls");
+    }
 
+    @Override
+    public void Rules() {
+        System.out.println("Rules and Details of Arav");
     }
 }

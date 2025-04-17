@@ -7,16 +7,18 @@ public class HomeStayRulls implements HomeStay {
     public void iteamRulls() {
         System.out.println("Home Stay Iteam Rulls");
     }
-
     @Override
     public void billRulls() {
         System.out.println("Home Stay Bills Rulls");
 
     }
-
     @Override
     public void orderRulls() {
         System.out.println("Home Stay Order List Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Home Stay Rules");
     }
 }

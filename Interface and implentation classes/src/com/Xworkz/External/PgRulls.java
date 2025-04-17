@@ -11,12 +11,15 @@ public class PgRulls implements PG {
     @Override
     public void food() {
         System.out.println("PG Food Rulls");
-
     }
 
     @Override
     public void admission() {
         System.out.println("Pg Admission Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules");
     }
 }

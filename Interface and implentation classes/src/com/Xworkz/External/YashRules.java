@@ -17,6 +17,10 @@ public class YashRules implements Yash {
     @Override
     public void examRulls() {
         System.out.println("Exam Rules");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules of Yash.");
     }
 }

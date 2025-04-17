@@ -19,4 +19,9 @@ public class AppiRulls implements Appi {
         System.out.println("President Rulls");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules");
+    }
 }

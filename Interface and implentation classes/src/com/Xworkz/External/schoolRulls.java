@@ -19,4 +19,9 @@ public class schoolRulls implements School {
         System.out.println("Subject Rulls.");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules");
+    }
 }

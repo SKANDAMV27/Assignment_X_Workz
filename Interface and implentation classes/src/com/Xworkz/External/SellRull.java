@@ -11,12 +11,15 @@ public class SellRull implements Sell {
     @Override
     public void priceRull() {
         System.out.println("Price Rulls");
-
     }
 
     @Override
     public void changeRull() {
         System.out.println("Documents change Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rule Sell");
     }
 }

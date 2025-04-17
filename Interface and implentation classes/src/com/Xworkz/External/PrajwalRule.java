@@ -17,6 +17,6 @@ public class PrajwalRule implements Prajwal {
     @Override
     public void examRulls() {
         System.out.println("Exam Rulls for Student.");
-
     }
+
 }

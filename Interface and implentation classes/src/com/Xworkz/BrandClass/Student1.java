@@ -31,4 +31,9 @@ public class Student1 implements Aakhil, Abhi {
         System.out.println("College Rule");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Student Rules");
+    }
 }

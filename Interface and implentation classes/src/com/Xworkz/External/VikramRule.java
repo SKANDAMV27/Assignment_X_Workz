@@ -18,6 +18,8 @@ public class VikramRule implements Vikram{
     @Override
     public void examRulls() {
         System.out.println("Exam Rulls for Student.");
-
+    }
+    public void rules(){
+        System.out.println("Rules of Vikram");
     }
 }

@@ -12,6 +12,7 @@ public class Runner {
         aakhil.collegeRulls();
         aakhil.homeRulls();
         aakhil.schoolRulls();
+        aakhil.rules();
 
         System.out.println("");
 
@@ -19,6 +20,7 @@ public class Runner {
         student1.examRulls();
         student1.gameRulls();
         student1.schoolRulls();
+        student1.Rules();
 
         System.out.println("");
 
@@ -26,6 +28,7 @@ public class Runner {
         traffic.signalRulls();
         traffic.drivingRulls();
         traffic.parkingRulls();
+        traffic.rules();
 
         System.out.println("");
 
@@ -33,6 +36,7 @@ public class Runner {
         student2.examRulls();
         student2.gameRulls();
         student2.schoolRulls();
+        student2.rules();
 
         System.out.println("");
 
@@ -40,6 +44,8 @@ public class Runner {
         student3.presidentRulls();
         student3.principalRulls();
         student3.teacherRulls();
+        student3.Rules();
+        student3.Rules();
 
         System.out.println("");
 
@@ -47,6 +53,7 @@ public class Runner {
         student4.presidentRulls();
         student4.principalRulls();
         student4.teacherRulls();
+        student4.rules();
 
         System.out.println("");
 
@@ -54,6 +61,7 @@ public class Runner {
         student5.schoolRulls();
         student5.examRulls();
         student5.gameRulls();
+        student5.rules();
 
         System.out.println("");
 
@@ -61,6 +69,7 @@ public class Runner {
         hotel.billRulls();
         hotel.iteamRulls();
         hotel.orderRulls();
+        hotel.rules();
 
         System.out.println("");
 
@@ -68,6 +77,7 @@ public class Runner {
         school.gameRulls();
         school.subRulls();
         school.timeRulls();
+        school.rules();
 
         System.out.println("");
 
@@ -75,6 +85,7 @@ public class Runner {
         college.courseRulls();
         college.feesRulls();
         college.streemRulls();
+        college.rules();
 
         System.out.println("");
 
@@ -82,93 +93,109 @@ public class Runner {
         bhrath.examRulls();
         bhrath.gameRulls();
         bhrath.schoolRulls();
+        bhrath.rules();
 
         System.out.println("");
         Hostel hostel = new HostelRulls();
         hostel.admission();
         hostel.fees();
         hostel.food();
+        hostel.rules();
 
         System.out.println("");
         PG pg = new PgRulls();
         pg.admission();
         pg.fees();
         pg.food();
+        pg.rules();
 
         System.out.println("");
         Room room = new RoomRulls();
         room.cleanRulls();
         room.lockRulls();
         room.rentRull();
+        room.rules();
 
         System.out.println("");
         HomeStay homeStay = new HomeStayRulls();
         homeStay.billRulls();
         homeStay.iteamRulls();
         homeStay.orderRulls();
+        homeStay.rules();
 
         System.out.println("");
         Lodge lodge = new LodgeRulls();
         lodge.admissionRulls();
         lodge.amountRulls();
         lodge.stayRulls();
+        lodge.rules();
 
         System.out.println("");
         Sell sell = new SellRull();
         sell.changeRull();
         sell.documentRull();
         sell.priceRull();
+        sell.rules();
 
         System.out.println("");
         Buy buy = new BuyRulls();
         buy.changeRull();
         buy.documentRull();
         buy.priceRull();
+        buy.rule();
 
         System.out.println("");
         HighWay highWay = new HighwayRulls();
         highWay.drivingRulls();
         highWay.speedRulls();
         highWay.symbolRulls();
+        highWay.rule();
 
         System.out.println("");
         car car = new Destination();
         car.drivingRulls();
         car.rulls();
         car.speedRulls();
+        car.carRules();
 
         Arav arav = new AravRull();
         arav.presidentRulls();
         arav.teacherRulls();
         arav.principalRulls();
+        arav.Rules();
 
         Vihan vihan = new VihanRulls();
         vihan.presidentRulls();
         vihan.teacherRulls();
         vihan.principalRulls();
+        vihan.Rules();
 
         Kabir kabir = new KabirRulls();
         kabir.presidentRulls();
         kabir.teacherRulls();
         kabir.principalRulls();
+        kabir.Rules();
 
         System.out.println("");
         Reyansh reyansh = new ReyanshRull();
         reyansh.examRulls();
         reyansh.gameRulls();
         reyansh.schoolRulls();
+        reyansh.rules();
 
         System.out.println("");
         Advik advik = new AdvikRull();
         advik.examRulls();
         advik.gameRulls();
         advik.schoolRulls();
+        advik.rules();
 
         System.out.println("");
         Arjun arjun = new ArjunRules();
         arjun.examRulls();
-        arav.principalRulls();
-        arav.presidentRulls();
+        arjun.gameRulls();
+        arjun.schoolRulls();
+        arjun.rules();
 
         System.out.println("");
         Krish krish = new KrishRule();
@@ -181,18 +208,21 @@ public class Runner {
         shaurya.examRulls();
         shaurya.gameRulls();
         shaurya.schoolRulls();
+        shaurya.rules();
 
         System.out.println("");
         Tarun tarun = new TarunRule();
         tarun.examRulls();
         tarun.gameRulls();
         tarun.examRulls();
+        tarun.rules();
 
         System.out.println();
         Tanmay tanmay = new TanmayRule();
         tanmay.examRulls();
         tanmay.gameRulls();
         tanmay.schoolRulls();
+        tanmay.rules();
 
         System.out.println("");
         Tejas tejas = new TejasRule();
@@ -205,102 +235,119 @@ public class Runner {
         trishul.examRulls();
         trishul.gameRulls();
         trishul.schoolRulls();
+        trishul.rules();
 
         System.out.println("");
         Zaiden zaiden = new ZaidenRule();
         zaiden.examRulls();
         zaiden.gameRulls();
         zaiden.schoolRulls();
+        zaiden.rules();
 
         System.out.println("");
         Yuvan yuvan = new YuvanRules();
         yuvan.examRulls();
         yuvan.gameRulls();
         yuvan.schoolRulls();
+        yuvan.rules();
 
         System.out.println("");
         Yash yash = new YashRules();
         yash.examRulls();
         yash.gameRulls();
         yash.schoolRulls();
+        yash.rules();
 
         System.out.println("");
         Vivaan vivaan = new VivaanRule();
         vivaan.examRulls();
         vivaan.gameRulls();
         vivaan.schoolRulls();
+        vivaan.rules();
 
         System.out.println("");
         Vishal vishal = new VishaoRule();
         vishal.examRulls();
         vishal.gameRulls();
         vishal.schoolRulls();
+        vishal.rules();
 
         System.out.println("");
         Viresh viresh = new VireshRule();
         viresh.examRulls();
         viresh.gameRulls();
         viresh.schoolRulls();
+        viresh.rules();
 
         System.out.println("");
         Viraj viraj = new VirajRule();
         viraj.examRulls();
         viraj.gameRulls();
         viraj.schoolRulls();
+        viraj.rules();
 
         System.out.println("");
         Vikram vikram = new VikramRule();
         vikram.examRulls();
         vikram.schoolRulls();
         vikram.gameRulls();
+        vikram.rules();
 
         System.out.println("");
         Vikas vikas = new VikasRule();
         vikas.examRulls();
         vikas.schoolRulls();
         vikas.gameRulls();
+        vikas.rules();
 
         System.out.println("");
         Vibhav vibhav = new VibhavRule();
         vibhav.examRulls();
         vibhav.gameRulls();
         vibhav.schoolRulls();
+        vibhav.rules();
 
         System.out.println("");
         Nirav nirav = new NiravRule();
         nirav.examRulls();
         nirav.gameRulls();
         nirav.schoolRulls();
+        nirav.rules();
 
         System.out.println("");
         Nishant nishant = new NishanthRule();
         nishant.examRulls();
         nishant.gameRulls();
         nishant.schoolRulls();
+        nishant.rules();
 
         System.out.println("");
         Jatin jatin = new JatinRule();
         jatin.examRulls();
         jatin.gameRulls();
         jatin.schoolRulls();
+        jatin.Rules();
 
         System.out.println("");
         Ishaan ishaan = new IshaanRule();
         ishaan.examRulls();
         ishaan.gameRulls();
         ishaan.schoolRulls();
+        ishaan.rules();
 
         System.out.println("");
         Krishna krishna = new KrishnaRule();
         krishna.examRulls();
         krishna.gameRulls();
         krishna.schoolRulls();
+        krishna.rules();
 
         System.out.println("");
         Krishiv krishiv = new KrishivRule();
         krishiv.examRulls();
         krishiv.gameRulls();
         krishiv.schoolRulls();
+        krishiv.rules();
 
         System.out.println("");
         Kian kian = new KianRule();
@@ -379,6 +426,74 @@ public class Runner {
         parth.examRulls();
         parth.schoolRulls();
         parth.gameRulls();
+
+        System.out.println("");
+        Smarth smarth = new SmarthRules();
+        smarth.ruls();
+        smarth.examRulls();
+        smarth.gameRulls();
+        smarth.schoolRulls();
+
+        System.out.println("");
+        Charan charan = new CharanRules();
+        charan.ruls();
+        charan.examRulls();
+        charan.gameRulls();
+        charan.schoolRulls();
+
+        System.out.println("");
+        Manju manju = new ManjuRules();
+        manju.ruls();
+        manju.examRulls();
+        manju.gameRulls();
+        manju.schoolRulls();
+
+        System.out.println("");
+        Thilak thilak = new ThilakRule();
+        thilak.ruls();
+        thilak.examRulls();
+        thilak.gameRulls();
+        thilak.schoolRulls();
+
+        System.out.println("");
+        Chinmay chinmay = new ChinmayRules();
+        chinmay.ruls();
+        chinmay.examRulls();
+        chinmay.gameRulls();
+        chinmay.schoolRulls();
+
+        System.out.println("");
+        Chinthu chinthu = new ChinthuRules();
+        chinthu.ruls();
+        chinthu.examRulls();
+        chinthu.gameRulls();
+        chinthu.schoolRulls();
+
+        System.out.println("");
+        Chinnu chinnu = new ChinnuRules();
+        chinnu.ruls();
+        chinnu.examRulls();
+        chinnu.schoolRulls();
+        chinnu.gameRulls();
+
+        System.out.println("");
+        Chandrika chandrika = new ChandrikaRules();
+        chandrika.ruls();
+        chandrika.examRulls();
+        chandrika.schoolRulls();
+        chandrika.gameRulls();
+
+        System.out.println("");
+        Ani ani = new AniRules();
+        ani.examRulls();
+        ani.ruls();
+        ani.gameRulls();
+        ani.schoolRulls();
+
+
+
+
+
 
         System.out.println("");
         Student1 student6 = new Student1();

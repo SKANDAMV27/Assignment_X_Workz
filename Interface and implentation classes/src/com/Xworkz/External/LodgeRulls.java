@@ -11,12 +11,15 @@ public class LodgeRulls implements Lodge {
     @Override
     public void stayRulls() {
         System.out.println("Lodge Stay Rulls");
-
     }
 
     @Override
     public void admissionRulls() {
         System.out.println("Lodge Admission Rulls");
+    }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules");
     }
 }

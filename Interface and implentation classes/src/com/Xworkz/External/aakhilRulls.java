@@ -20,4 +20,10 @@ public class aakhilRulls implements Aakhil {
         System.out.println("Home Rulls");
 
     }
+
+    @Override
+    public void rules() {
+
+        System.out.println("Student Rules");
+    }
 }
