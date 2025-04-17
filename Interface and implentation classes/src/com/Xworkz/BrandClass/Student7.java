@@ -20,4 +20,9 @@ public class Student7 implements Yash, Yuvan {
         System.out.println("Exam Rulls for Student.");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules is Rules");
+    }
 }

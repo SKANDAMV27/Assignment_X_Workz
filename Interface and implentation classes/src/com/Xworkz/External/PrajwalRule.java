@@ -11,7 +11,6 @@ public class PrajwalRule implements Prajwal {
     @Override
     public void gameRulls() {
         System.out.println("Game Rulls For Student.");
-
     }
 
     @Override
@@ -19,4 +18,8 @@ public class PrajwalRule implements Prajwal {
         System.out.println("Exam Rulls for Student.");
     }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules of the Prajwal");
+    }
 }

@@ -7,4 +7,7 @@ public interface Harsh {
     void gameRulls();
 
     void examRulls();
+    default void Rules(){
+        System.out.println("Rules of Harsh");
+    }
 }

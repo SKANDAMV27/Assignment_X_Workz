@@ -20,4 +20,9 @@ public class Student5 implements PG, Hostel {
         System.out.println("Pg Admission Rulls");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules");
+    }
 }

@@ -34,6 +34,11 @@ public class Student29 implements  School, Shaurya, Tanmay , Hotel, Sell {
     }
 
     @Override
+    public void rules() {
+        System.out.println("Rules is Rules");
+    }
+
+    @Override
     public void iteamRulls() {
         System.out.println("Item Rules");
 

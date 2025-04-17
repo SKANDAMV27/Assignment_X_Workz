@@ -22,4 +22,14 @@ public class Student4 implements Gautam, Harsh, Harvith {
 
     }
 
+    @Override
+    public void rules() {
+        System.out.println("Rules is Rules");
+    }
+
+    @Override
+    public void Rules() {
+        System.out.println("Rules is Rules");
+    }
+
 }

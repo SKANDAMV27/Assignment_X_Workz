@@ -54,4 +54,9 @@ public class Student25 implements Room, PG, Hostel, HomeStay, Hotel {
         System.out.println("Lock Rules.");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules is Rule");
+    }
 }

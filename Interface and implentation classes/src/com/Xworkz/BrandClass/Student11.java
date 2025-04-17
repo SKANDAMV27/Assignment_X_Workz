@@ -20,4 +20,9 @@ public class Student11 implements Tanmay, Tarun {
         System.out.println("Exam Rulls for Student.");
 
     }
+
+    @Override
+    public void rules() {
+        System.out.println("Rules is Rules");
+    }
 }

@@ -354,72 +354,84 @@ public class Runner {
         kian.examRulls();
         kian.gameRulls();
         kian.examRulls();
+        kian.Rules();
 
         System.out.println("");
         Darshan darshan = new DarshanRule();
         darshan.examRulls();
         darshan.gameRulls();
         darshan.schoolRulls();
+        darshan.Rules();
 
         System.out.println("");
         Gautam gautam = new GautamRule();
         gautam.examRulls();
         gautam.gameRulls();
         gautam.schoolRulls();
+        gautam.Rules();
 
         System.out.println("");
         Harsh harsh = new HarshRule();
         harsh.examRulls();
         harsh.gameRulls();
         harsh.schoolRulls();
+        harsh.Rules();
 
         System.out.println("");
         Harvith harvith = new HarvithRule();
         harvith.examRulls();
         harvith.gameRulls();
         harvith.schoolRulls();
+        harvith.rules();
 
         System.out.println("");
         Kripal kripal = new KripalRule();
         kripal.examRulls();
         kripal.gameRulls();
         kripal.schoolRulls();
+        kripal.Rulls();
 
         System.out.println("");
         Manan manan = new MananRule();
         manan.examRulls();
         manan.gameRulls();
         manan.schoolRulls();
+        manan.rules();
 
         System.out.println("");
         Prajwal prajwal = new PrajwalRule();
         prajwal.examRulls();
         prajwal.gameRulls();
         prajwal.schoolRulls();
+        prajwal.rules();
 
         System.out.println("");
         Pranay pranay = new PranayRule();
         pranay.examRulls();
         pranay.gameRulls();
         pranay.schoolRulls();
+        pranay.rules();
 
         System.out.println("");
         Pranav pranav = new PranavRule();
         pranav.examRulls();
         pranav.gameRulls();
         pranav.schoolRulls();
+        pranav.rules();
 
         System.out.println("");
         Prithvi prithvi = new PrithviRule();
         prithvi.examRulls();
         prithvi.schoolRulls();
         prithvi.gameRulls();
+        prithvi.rules();
 
         System.out.println("");
         Raghav raghav = new RaghavRule();
         raghav.examRulls();
         raghav.schoolRulls();
         raghav.gameRulls();
+        raghav.rules();
 
         System.out.println("");
         Parth parth = new PrathRule();
