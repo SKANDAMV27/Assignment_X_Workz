@@ -23,7 +23,7 @@ public class Employee {
             XSSFRow row = Sheet.getRow(r);
             for(int c=0;c<column;c++){
                 XSSFComment cell = Sheet.getCellComment(c);
-                switch (cell.)
+                switch (cell)
             }
         }
 
