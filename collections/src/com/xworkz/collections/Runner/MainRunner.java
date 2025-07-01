@@ -32,6 +32,7 @@ public class MainRunner {
         System.out.println("Result After Add..");
         System.out.println("Number Of Bikes: "+arrayList.size());
 
+        System.out.println("");
         System.out.println("Car Details..");
         Set<String> car = new TreeSet<>();
         car.add("Waganor");
@@ -59,6 +60,7 @@ public class MainRunner {
         car.add("XpressOO");
         System.out.println("Then After ADD: "+car.size());
 
+        System.out.println("");
         List<String> village = new LinkedList<>();
         System.out.println("Number Of Villages In Gramapanchayath.");
         village.add("Meenugoadu");
@@ -85,6 +87,67 @@ public class MainRunner {
         village.add("Nayudavalli");
         System.out.println("After The Clear:"+village.size());
         System.out.println("Then After Add:"+village.size());
+
+        System.out.println("");
+        Set<String> state = new HashSet<>();
+        state.add("Karnatakka");
+        state.add("Andhra Pradesh");
+        state.add("Assam");
+        state.add("Telangana");
+        state.add("Chhattisgarh");
+        state.add("Kerala");
+        state.add("Rajasthan");
+        state.add("Odisha");
+        state.add("Manipur");
+        state.add("Punjab");
+        System.out.println("Total Number Of States :"+state.size());
+        state.clear();
+        System.out.println("After Clear: "+state.size());
+        state.add("Karnatakka");
+        state.add("Andhra Pradesh");
+        state.add("Assam");
+        state.add("Telangana");
+        state.add("Chhattisgarh");
+        state.add("Kerala");
+        state.add("Rajasthan");
+        state.add("Odisha");
+        state.add("Manipur");
+        state.add("Punjab");
+        System.out.println("Then After Add :"+state.size());
+
+        System.out.println("");
+        Queue<String> laptop = new PriorityQueue<>();
+        laptop.add("Dell");
+        laptop.add("Acer");
+        laptop.add("Hp");
+        laptop.add("Microsoft");
+        laptop.add("Samsang");
+        laptop.add("Lenavo");
+        laptop.add("Apple");
+        laptop.add("Alienware");
+        laptop.add("LG");
+        laptop.add("Victors");
+        System.out.println("Number Of Laptops:"+laptop.size());
+        laptop.clear();
+        System.out.println("After Clear:"+laptop.size());
+        laptop.add("Dell");
+        laptop.add("Acer");
+        laptop.add("Hp");
+        laptop.add("Microsoft");
+        laptop.add("Samsang");
+        laptop.add("Lenavo");
+        laptop.add("Apple");
+        laptop.add("Alienware");
+        laptop.add("LG");
+        laptop.add("Victors");
+        System.out.println("Then After Add:"+laptop.size());
+
+
+
+
+
+
+
 
 
 
