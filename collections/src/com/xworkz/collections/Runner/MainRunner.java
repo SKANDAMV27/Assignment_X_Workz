@@ -57,8 +57,35 @@ public class MainRunner {
         car.add("Franz");
         car.add("Balenooo");
         car.add("XpressOO");
-
         System.out.println("Then After ADD: "+car.size());
+
+        List<String> village = new LinkedList<>();
+        System.out.println("Number Of Villages In Gramapanchayath.");
+        village.add("Meenugoadu");
+        village.add("Melinakoppa");
+        village.add("Kaveri");
+        village.add("Husaani");
+        village.add("Eregoadu");
+        village.add("Shike");
+        village.add("Tatahalli");
+        village.add("Herebhailu");
+        village.add("Bilubadige");
+        village.add("Nayudavalli");
+        System.out.println("Number Of Villages In Gramapanchayath:"+village.size());
+        village.clear();
+        village.add("Meenugoadu");
+        village.add("Melinakoppa");
+        village.add("Kaveri");
+        village.add("Husaani");
+        village.add("Eregoadu");
+        village.add("Shike");
+        village.add("Tatahalli");
+        village.add("Herebhailu");
+        village.add("Bilubadige");
+        village.add("Nayudavalli");
+        System.out.println("After The Clear:"+village.size());
+        System.out.println("Then After Add:"+village.size());
+
 
 
 
