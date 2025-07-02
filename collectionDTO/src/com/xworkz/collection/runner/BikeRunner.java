@@ -24,6 +24,15 @@ public class BikeRunner {
             System.out.println("");
             System.out.println("Brand Name: "+bileDTO.getBrand());
             System.out.println("");
+            System.out.println("Bike Color: "+bileDTO.getColor());
+            System.out.println("");
+            System.out.println("Bike Type: "+bileDTO.getType());
+            System.out.println("");
+            System.out.println("Bike Capacity: "+bileDTO.getCapacity());
+            System.out.println("");
+            System.out.println("Bike Number: "+bileDTO.getNumber());
+            System.out.println("");
+            System.out.println("Bike Owner: "+bileDTO.getOwner());
         }
 
 
