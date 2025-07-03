@@ -7,15 +7,15 @@ public class MainRunner {
 
     public static void main(String[] args) {
 
-        Bottle bottle = (int no)->{
-            System.out.println("Running Lamda Expression "+no);
-            if(no>10){
-                return true;
-            }
-            return false;
-        };
+       // Bottle bottle = (int no)->{
+           // System.out.println("Running Lamda Expression "+no);
+            //if(no>10){
+             //   return true;
+           // }
+           // return false;
+        //};
 
         Customer customer = new Customer();
-        customer.buy(bottle);
+        customer.buy((no)->no>0);
     }
 }
