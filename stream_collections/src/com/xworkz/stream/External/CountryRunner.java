@@ -19,6 +19,12 @@ public class CountryRunner {
 
         System.out.println("A Countrs Name Start With I:");
         countryImps.stream().filter(c -> c.toLowerCase().startsWith("i")).forEach(System.out::println);
+
+        System.out.println("");
+        System.out.println("A Country's Name End With G: ");
+        countryImps.stream().filter(c-> c.toLowerCase().endsWith("g")).forEach(System.out::println);
+
+
     }
 
 
