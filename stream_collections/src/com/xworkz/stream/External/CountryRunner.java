@@ -37,6 +37,12 @@ public class CountryRunner {
         System.out.println("A Country's Name End With A:");
         countryImps.stream().filter(c-> c.toLowerCase().endsWith("a")).forEach(System.out::println);
 
+        System.out.println("");
+        System.out.println("A Country's Name Contains More Then 6 Characture: ");
+        countryImps.stream().filter(c->c.length()>6).forEach(System.out::println);
+
+        System.out.println("");
+
 
     }
 
