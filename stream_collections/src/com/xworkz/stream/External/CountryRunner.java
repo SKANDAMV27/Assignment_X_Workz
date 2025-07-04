@@ -5,6 +5,7 @@ import com.xworkz.stream.Internal.CountryImp;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 
 public class CountryRunner {
     public static void main(String[] args) {
@@ -23,6 +24,18 @@ public class CountryRunner {
         System.out.println("");
         System.out.println("A Country's Name End With G: ");
         countryImps.stream().filter(c-> c.toLowerCase().endsWith("g")).forEach(System.out::println);
+
+        System.out.println("");
+        System.out.println("Desending Order: ");
+        countryImps.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
+
+        System.out.println("");
+        System.out.println("Ascending Order: ");
+        countryImps.stream().sorted().forEach(System.out::println);
+
+        System.out.println("");
+        System.out.println("A Country's Name End With A:");
+        countryImps.stream().filter(c-> c.toLowerCase().endsWith("a")).forEach(System.out::println);
 
 
     }
