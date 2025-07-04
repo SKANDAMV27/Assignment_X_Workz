@@ -42,6 +42,8 @@ public class CountryRunner {
         countryImps.stream().filter(c->c.length()>6).forEach(System.out::println);
 
         System.out.println("");
+        System.out.println("A Country Name Contains Lesser Then 4 Characture: ");
+        countryImps.stream().filter(c->c.length()<4).forEach(System.out::println);
 
 
     }
