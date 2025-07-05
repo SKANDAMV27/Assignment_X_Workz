@@ -6,6 +6,7 @@ import com.xworkz.stream.Internal.CountryImp;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Comparator;
+import java.util.List;
 
 public class CountryRunner {
     public static void main(String[] args) {
@@ -24,6 +25,7 @@ public class CountryRunner {
         System.out.println("");
         System.out.println("A Country's Name End With G: ");
         countryImps.stream().filter(c-> c.toLowerCase().endsWith("g")).forEach(System.out::println);
+
 
         System.out.println("");
         System.out.println("Desending Order: ");
@@ -53,6 +55,18 @@ public class CountryRunner {
         System.out.println("A Country Name Count:");
         countryImps.stream().forEach(c -> System.out.println(c + " = " + c.length()));
 
+        System.out.println("");
+        System.out.println("A Country Name Palindrom: ");
+        countryImps.stream().filter(c->palindrom(c)).forEach(System.out::println);
+
+
+
+    }
+
+    private static boolean palindrom(String world){
+       String lower =  world.toLowerCase();
+
+        return new StringBuilder(lower).reverse().toString().equals(lower);
 
     }
 
