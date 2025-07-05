@@ -49,6 +49,10 @@ public class CountryRunner {
         System.out.println("A Country Name Which Contains O:");
         countryImps.stream().filter(c->c.toLowerCase().contains("o")).forEach(System.out::println);
 
+        System.out.println("");
+        System.out.println("A Country Name Count:");
+        countryImps.stream().forEach(c -> System.out.println(c + " = " + c.length()));
+
 
     }
 
